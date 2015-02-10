@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cn.edu.ustc.biofilm</groupId>
-  <artifactId>biopano</artifactId>
+  <artifactId>BioPano</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>biopano</name>
+  <name>BioPano</name>
   <url>http://maven.apache.org</url>
 
   <properties>

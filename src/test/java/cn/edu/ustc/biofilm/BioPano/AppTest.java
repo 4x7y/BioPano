@@ -1,4 +1,4 @@
-package cn.edu.ustc.biofilm.biopano;
+package cn.edu.ustc.biofilm.BioPano;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
