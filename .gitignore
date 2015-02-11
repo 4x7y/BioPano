@@ -1,5 +1,5 @@
 *.class
-.DS_Store
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -14,7 +14,3 @@ hs_err_pid*
 /target/
 
 
-#Travis CI
-.travis.yml
-
-.gitignore

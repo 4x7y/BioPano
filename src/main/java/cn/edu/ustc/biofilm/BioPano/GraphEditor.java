@@ -2,6 +2,8 @@
  * Copyright (c) 2006-2012, JGraph Ltd */
 package cn.edu.ustc.biofilm.BioPano;
 
+import org.w3c.dom.*;//Support for xml files
+
 import java.awt.Color;
 import java.awt.Point;
 import java.net.URL;
