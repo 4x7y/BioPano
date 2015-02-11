@@ -14,3 +14,14 @@ hs_err_pid*
 /target/
 
 
+#Travis CI
+.travis.yml
+
+
+
+.gitignore
+.DS_Store
+
+.project
+.settings
+.classpath
