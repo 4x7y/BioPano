@@ -1,7 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="cn.edu.ustc.biofilm.BioPano.editor.\lEditorActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcn_1_1edu_1_1ustc_1_1biofilm_1_1_bio_pano_1_1editor_1_1_editor_actions.html"];
-}
