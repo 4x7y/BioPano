@@ -49,37 +49,37 @@ public class SchemaEditorToolBar extends JToolBar
 		setFloatable(false);
 
 		add(editor.bind("New", new NewAction(),
-				"/com/mxgraph/examples/swing/images/new.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/new.gif"));
 		add(editor.bind("Open", new OpenAction(),
-				"/com/mxgraph/examples/swing/images/open.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/open.gif"));
 		add(editor.bind("Save", new SaveAction(false),
-				"/com/mxgraph/examples/swing/images/save.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/save.gif"));
 
 		addSeparator();
 
 		add(editor.bind("Print", new PrintAction(),
-				"/com/mxgraph/examples/swing/images/print.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/print.gif"));
 
 		addSeparator();
 
 		add(editor.bind("Cut", TransferHandler.getCutAction(),
-				"/com/mxgraph/examples/swing/images/cut.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/cut.gif"));
 		add(editor.bind("Copy", TransferHandler.getCopyAction(),
-				"/com/mxgraph/examples/swing/images/copy.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/copy.gif"));
 		add(editor.bind("Paste", TransferHandler.getPasteAction(),
-				"/com/mxgraph/examples/swing/images/paste.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/paste.gif"));
 
 		addSeparator();
 
 		add(editor.bind("Delete", mxGraphActions.getDeleteAction(),
-				"/com/mxgraph/examples/swing/images/delete.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/delete.gif"));
 
 		addSeparator();
 
 		add(editor.bind("Undo", new HistoryAction(true),
-				"/com/mxgraph/examples/swing/images/undo.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/undo.gif"));
 		add(editor.bind("Redo", new HistoryAction(false),
-				"/com/mxgraph/examples/swing/images/redo.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/redo.gif"));
 
 		addSeparator();
 

@@ -61,24 +61,24 @@ public class SchemaEditorMenuBar extends JMenuBar
 		menu = add(new JMenu(mxResources.get("file")));
 
 		menu.add(editor.bind(mxResources.get("new"), new NewAction(),
-				"/com/mxgraph/examples/swing/images/new.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/new.gif"));
 		menu.add(editor.bind(mxResources.get("openFile"), new OpenAction(),
-				"/com/mxgraph/examples/swing/images/open.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/open.gif"));
 
 		menu.addSeparator();
 
 		menu.add(editor.bind(mxResources.get("save"), new SaveAction(false),
-				"/com/mxgraph/examples/swing/images/save.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/save.gif"));
 		menu.add(editor.bind(mxResources.get("saveAs"), new SaveAction(true),
-				"/com/mxgraph/examples/swing/images/saveas.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/saveas.gif"));
 
 		menu.addSeparator();
 
 		menu.add(editor.bind(mxResources.get("pageSetup"),
 				new PageSetupAction(),
-				"/com/mxgraph/examples/swing/images/pagesetup.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/pagesetup.gif"));
 		menu.add(editor.bind(mxResources.get("print"), new PrintAction(),
-				"/com/mxgraph/examples/swing/images/print.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/print.gif"));
 
 		menu.addSeparator();
 
@@ -88,26 +88,26 @@ public class SchemaEditorMenuBar extends JMenuBar
 		menu = add(new JMenu(mxResources.get("edit")));
 
 		menu.add(editor.bind(mxResources.get("undo"), new HistoryAction(true),
-				"/com/mxgraph/examples/swing/images/undo.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/undo.gif"));
 		menu.add(editor.bind(mxResources.get("redo"), new HistoryAction(false),
-				"/com/mxgraph/examples/swing/images/redo.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/redo.gif"));
 
 		menu.addSeparator();
 
 		menu.add(editor.bind(mxResources.get("cut"), TransferHandler
-				.getCutAction(), "/com/mxgraph/examples/swing/images/cut.gif"));
+				.getCutAction(), "/cn/edu/ustc/biofilm/BioPano/images/cut.gif"));
 		menu.add(editor
 				.bind(mxResources.get("copy"), TransferHandler.getCopyAction(),
-						"/com/mxgraph/examples/swing/images/copy.gif"));
+						"/cn/edu/ustc/biofilm/BioPano/images/copy.gif"));
 		menu.add(editor.bind(mxResources.get("paste"), TransferHandler
 				.getPasteAction(),
-				"/com/mxgraph/examples/swing/images/paste.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/paste.gif"));
 
 		menu.addSeparator();
 
 		menu.add(editor.bind(mxResources.get("delete"), mxGraphActions
 				.getDeleteAction(),
-				"/com/mxgraph/examples/swing/images/delete.gif"));
+				"/cn/edu/ustc/biofilm/BioPano/images/delete.gif"));
 
 		menu.addSeparator();
 
@@ -321,13 +321,13 @@ public class SchemaEditorMenuBar extends JMenuBar
 						.bind(
 								mxResources.get("basicStyle"),
 								new StylesheetAction(
-										"/com/mxgraph/examples/swing/resources/basic-style.xml")));
+										"/cn/edu/ustc/biofilm/BioPano/resources/basic-style.xml")));
 		submenu
 				.add(editor
 						.bind(
 								mxResources.get("defaultStyle"),
 								new StylesheetAction(
-										"/com/mxgraph/examples/swing/resources/default-style.xml")));
+										"/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml")));
 
 		// Creates the options menu
 		menu = add(new JMenu(mxResources.get("options")));

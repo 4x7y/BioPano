@@ -321,9 +321,9 @@ public class EditorMenuBar extends JMenuBar
 		submenu = (JMenu) menu.add(new JMenu(mxResources.get("stylesheet")));
 
 		submenu.add(editor.bind(mxResources.get("basicStyle"),
-				new StylesheetAction("cn/edu/ustc/biofilm/BioPano/resources/basic-style.xml")));
+				new StylesheetAction("/cn/edu/ustc/biofilm/BioPano/resources/basic-style.xml")));
 		submenu.add(editor.bind(mxResources.get("defaultStyle"), new StylesheetAction(
-				"cn/edu/ustc/biofilm/BioPano/resources/default-style.xml")));
+				"/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml")));
 
 		// Creates the options menu
 		menu = add(new JMenu(mxResources.get("options")));
