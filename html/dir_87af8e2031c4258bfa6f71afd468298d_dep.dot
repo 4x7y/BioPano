@@ -1,0 +1,9 @@
+digraph "src/main/java/cn/edu/ustc/biofilm/BioPano/editor" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_42c99e3db27d0f9896ef3df136b68607 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="BioPano" fontname="Helvetica", fontsize="10", URL="dir_42c99e3db27d0f9896ef3df136b68607.html"]
+  dir_87af8e2031c4258bfa6f71afd468298d [shape=box, label="editor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_87af8e2031c4258bfa6f71afd468298d.html"];
+  }
+}

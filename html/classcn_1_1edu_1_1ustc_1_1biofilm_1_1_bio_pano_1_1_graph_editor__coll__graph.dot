@@ -1,0 +1,33 @@
+digraph "cn.edu.ustc.biofilm.BioPano.GraphEditor"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cn.edu.ustc.biofilm.BioPano.\lGraphEditor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cn.edu.ustc.biofilm.BioPano.editor.\lBasicGraphEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcn_1_1edu_1_1ustc_1_1biofilm_1_1_bio_pano_1_1editor_1_1_basic_graph_editor.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="JPanel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" undoManager" ,fontname="Helvetica"];
+  Node4 [label="mxUndoManager",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" graphComponent" ,fontname="Helvetica"];
+  Node5 [label="mxGraphComponent",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rubberband" ,fontname="Helvetica"];
+  Node6 [label="mxRubberband",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" libraryPane" ,fontname="Helvetica"];
+  Node7 [label="JTabbedPane",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" graphOutline" ,fontname="Helvetica"];
+  Node8 [label="mxGraphOutline",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" currentFile" ,fontname="Helvetica"];
+  Node9 [label="File",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keyboardHandler" ,fontname="Helvetica"];
+  Node10 [label="mxKeyboardHandler",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" statusBar" ,fontname="Helvetica"];
+  Node11 [label="JLabel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node12 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" undoHandler\nchangeTracker" ,fontname="Helvetica"];
+  Node12 [label="mxIEventListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" numberFormat" ,fontname="Helvetica"];
+  Node13 [label="NumberFormat",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node14 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" url" ,fontname="Helvetica"];
+  Node14 [label="URL",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}
