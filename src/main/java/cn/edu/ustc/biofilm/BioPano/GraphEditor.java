@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2006-2012, JGraph Ltd */
+ * Copyright (c) iGEM USTC-Software */
 package cn.edu.ustc.biofilm.BioPano;
 
 import org.w3c.dom.*;//Support for xml files
