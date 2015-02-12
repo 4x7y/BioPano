@@ -30,4 +30,18 @@
       <systemPath>${project.basedir}/lib/jgraphx.jar</systemPath>
     </dependency>	
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eluder.coveralls</groupId>
+        <artifactId>coveralls-maven-plugin</artifactId>
+        <version>3.0.1</version>
+        <configuration>
+          <repoToken>JAF684I13uLlBAWOrHUnxgEyMkdO6pZME</repoToken>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
 </project>
