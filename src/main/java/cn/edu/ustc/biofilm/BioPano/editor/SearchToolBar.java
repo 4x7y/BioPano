@@ -30,12 +30,12 @@ public class SearchToolBar extends JPanel{
 
     public SearchToolBar() {
 
-        this.setPreferredSize(new Dimension(250, 100));
+        //this.setPreferredSize(new Dimension(250, 100));
         jf = new JSearchTextField();
 
         setLayout(new BorderLayout(0, 0));
         add(jf, BorderLayout.NORTH);
-        jf.setColumns(1);
+        jf.setColumns(0);
     }
 }
 
@@ -96,7 +96,6 @@ class JSearchTextField extends JIconTextField implements FocusListener {
     }
 }
 
-
 class JIconTextField extends JTextField{
 
     private Icon icon;
@@ -105,10 +104,17 @@ class JIconTextField extends JTextField{
     public JIconTextField(){
         super();
         this.icon = null;
-
+        /*
         Border border = UIManager.getBorder("TextField.border");
-        JTextField dummy = new JTextField();
+
         this.dummyInsets = border.getBorderInsets(dummy);
+        */
+        JTextField dummy = new JTextField();
+        Border line = BorderFactory.createLineBorder(Color.lightGray);
+        Border empty = new EmptyBorder(5,28,5, 5);
+        CompoundBorder border = new CompoundBorder(line, empty);
+        this.dummyInsets = border.getBorderInsets(dummy);
+        this.setBorder(border);
     }
 
     public void setIcon(Icon icon){
@@ -128,17 +134,15 @@ class JIconTextField extends JTextField{
         if(this.icon!=null){
             int iconWidth = icon.getIconWidth();
             int iconHeight = icon.getIconHeight();
-            int x = dummyInsets.left-6;//this is our icon's x
+            int x = dummyInsets.left-20;//this is our icon's x
             textX = x+iconWidth+2; //this is the x where text should start
             int y = (this.getHeight() - iconHeight)/2;
-            icon.paintIcon(this, g, x, y);
+            icon.paintIcon(this, g, 3, y);
         }
-        Border line = BorderFactory.createLineBorder(Color.DARK_GRAY);
-        Border empty = new EmptyBorder(0, 25, 0, 0);
-        CompoundBorder border = new CompoundBorder(line, empty);
-        this.setBorder(border);
 
-        this.setMargin(new Insets(2, 20, 2, 2));
+        System.out.println("repaint");
+        this.setMargin(new Insets(0, 0, 0, 0));
+
 
     }
 

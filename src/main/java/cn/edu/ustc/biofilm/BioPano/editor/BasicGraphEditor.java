@@ -1,7 +1,6 @@
 package cn.edu.ustc.biofilm.BioPano.editor;
 
-import java.awt.BorderLayout;
-import java.awt.Point;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
@@ -200,29 +199,18 @@ public class BasicGraphEditor extends JPanel
 
 
 		SearchToolBar searchPane = new SearchToolBar();
+		searchPane.setBackground(Color.CYAN);
+		searchPane.setPreferredSize(new Dimension(250,0));
 		/*
-		DefaultComboBoxModel defaultComboBoxModel=new DefaultComboBoxModel();
-		defaultComboBoxModel.addElement("aa");
-		defaultComboBoxModel.addElement("bb");
-		defaultComboBoxModel.addElement("cc");
-		JComboBox jComboBox = new JComboBox();
-		jComboBox.setModel(defaultComboBoxModel);
-		searchPane.add(jComboBox);
-		*/
-
-
 		JSplitPane outsider = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, outer, searchPane);
 		outsider.setOneTouchExpandable(true);
 		outsider.setDividerLocation(1000);
 		outsider.setDividerSize(6);
 		outsider.setBorder(null);
+		*/
 
 
-
-
-
-
-		// Creates the status bar
+		// Creates the status bar[JLabel]
 		statusBar = createStatusBar();
 
 		// Display some useful information about repaint events
@@ -231,8 +219,8 @@ public class BasicGraphEditor extends JPanel
 		// Puts everything together
 		setLayout(new BorderLayout());
 
-		//add(outer, BorderLayout.CENTER);
-		add(outsider, BorderLayout.CENTER);
+		add(outer, BorderLayout.CENTER);
+		add(searchPane, BorderLayout.EAST);
 
 
 		add(statusBar, BorderLayout.SOUTH);
