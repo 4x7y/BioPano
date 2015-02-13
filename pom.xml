@@ -21,6 +21,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.google.oauth-client</groupId>
+      <artifactId>google-oauth-client</artifactId>
+      <version>1.18.0-rc</version>
+    </dependency>
     
     <dependency>
       <groupId>com.mxgraph</groupId>

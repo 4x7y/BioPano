@@ -1,5 +1,7 @@
 /**
  * Copyright (c) 2007-2012, JGraph Ltd
+ *
+ * 左侧的图形
  */
 package cn.edu.ustc.biofilm.BioPano.editor;
 
@@ -66,7 +68,7 @@ public class EditorPalette extends JPanel
 	@SuppressWarnings("serial")
 	public EditorPalette()
 	{
-		setBackground(new Color(149, 230, 190));
+		setBackground(new Color(149, 230, 190));//149, 230, 190
 		setLayout(new FlowLayout(FlowLayout.LEADING, 5, 5));
 
 		// Clears the current selection when the background is clicked
