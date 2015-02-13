@@ -1,6 +1,6 @@
 # BioPano
 
-[![Build Status](https://travis-ci.org/4x7y/BioPano.svg?branch=master)](https://travis-ci.org/4x7y/BioPano)
+[![Build Status](https://travis-ci.org/4x7y/BioPano.svg?branch=master)](https://travis-ci.org/4x7y/BioPano) [![Coverage Status](https://coveralls.io/repos/4x7y/BioPano/badge.svg)](https://coveralls.io/r/4x7y/BioPano)
 
 BioPano is a platform targeted for visualization of biological relationships and cooperative net-building.
 
