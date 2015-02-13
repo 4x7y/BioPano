@@ -19,14 +19,15 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import javax.swing.*;
 
+
+import java.awt.event.*;
 import java.awt.*;
 
 
 
-public class SearchToolBar extends JPanel{
+public class SearchToolBar extends JPanel {
 
-    private JSearchTextField jf;
-
+    public JSearchTextField jf;
 
     public SearchToolBar() {
 
@@ -37,6 +38,9 @@ public class SearchToolBar extends JPanel{
         add(jf, BorderLayout.NORTH);
         jf.setColumns(0);
     }
+
+
+
 }
 
 
@@ -140,7 +144,7 @@ class JIconTextField extends JTextField{
             icon.paintIcon(this, g, 3, y);
         }
 
-        System.out.println("repaint");
+
         this.setMargin(new Insets(0, 0, 0, 0));
 
 

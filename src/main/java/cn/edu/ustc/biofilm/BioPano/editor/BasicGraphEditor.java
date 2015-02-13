@@ -1,15 +1,7 @@
 package cn.edu.ustc.biofilm.BioPano.editor;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionListener;
-import java.awt.event.MouseWheelEvent;
-import java.awt.event.MouseWheelListener;
+import java.awt.event.*;
 import java.io.File;
 import java.util.List;
 
@@ -91,6 +83,11 @@ public class BasicGraphEditor extends JPanel
 	 * 
 	 */
 	protected JLabel statusBar;
+
+	/**
+	 *
+	 */
+	protected SearchToolBar searchPane;
 
 	/**
 	 * 
@@ -198,7 +195,7 @@ public class BasicGraphEditor extends JPanel
 		outer.setBorder(null);
 
 
-		SearchToolBar searchPane = new SearchToolBar();
+		searchPane = new SearchToolBar();
 		searchPane.setBackground(Color.CYAN);
 		searchPane.setPreferredSize(new Dimension(250,0));
 		/*
@@ -439,6 +436,28 @@ public class BasicGraphEditor extends JPanel
 	 */
 	protected void installListeners()
 	{
+
+		//Installs key Enter listener for searching
+		searchPane.jf.addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+					System.out.println("Enter");
+				}
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+
+			}
+		});
+
+
 		// Installs mouse wheel listener for zooming
 		MouseWheelListener wheelTracker = new MouseWheelListener()
 		{

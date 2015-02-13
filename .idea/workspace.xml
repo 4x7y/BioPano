@@ -7,7 +7,6 @@
     <list default="true" id="c6f34057-a3e9-4eef-a1fe-26f897eea8d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BioPano.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,15 +46,10 @@
       <file leaf-file-name="GraphEditor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/GraphEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="10110">
-              <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="10035">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
-                <element signature="e#1768#1769#0" expanded="false" />
-                <element signature="e#1835#1836#0" expanded="false" />
-                <element signature="e#15909#15910#0" expanded="false" />
-                <element signature="e#15994#15995#0" expanded="false" />
-                <element signature="e#16117#16118#0" expanded="false" />
-                <element signature="e#16149#16150#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,28 +93,10 @@
       <file leaf-file-name="JTableRenderer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5655" max-vertical-offset="7620">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5655" max-vertical-offset="7545">
               <caret line="396" column="23" selection-start-line="396" selection-start-column="23" selection-end-line="396" selection-end-column="23" />
               <folding>
-                <element signature="e#0#12686#0" expanded="false" />
-                <element signature="e#4884#4885#0" expanded="false" />
-                <element signature="e#4923#4924#0" expanded="false" />
-                <element signature="e#5831#5832#0" expanded="false" />
-                <element signature="e#5847#5848#0" expanded="false" />
-                <element signature="e#5886#5887#0" expanded="false" />
-                <element signature="e#5913#5914#0" expanded="false" />
-                <element signature="e#8673#8674#0" expanded="false" />
-                <element signature="e#8705#8706#0" expanded="false" />
-                <element signature="e#11533#11534#0" expanded="false" />
-                <element signature="e#11568#11569#0" expanded="false" />
-                <element signature="e#11604#11605#0" expanded="false" />
-                <element signature="e#11635#11636#0" expanded="false" />
-                <element signature="e#11683#11684#0" expanded="false" />
-                <element signature="e#11716#11717#0" expanded="false" />
-                <element signature="e#11770#11771#0" expanded="false" />
-                <element signature="e#11804#11805#0" expanded="false" />
-                <element signature="e#12132#12133#0" expanded="false" />
-                <element signature="e#12160#12161#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,11 +105,27 @@
       <file leaf-file-name="BasicGraphEditor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59241706" vertical-offset="2760" max-vertical-offset="12480">
-              <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.708402" vertical-offset="8858" max-vertical-offset="12870">
+              <caret line="449" column="48" selection-start-line="449" selection-start-column="20" selection-end-line="449" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3379#3656#0" expanded="true" />
+                <element signature="e#3655#3656#0" expanded="true" />
+                <element signature="e#9626#9627#0" expanded="true" />
+                <element signature="e#9667#9668#0" expanded="true" />
+                <element signature="e#13426#13453#0" expanded="true" />
+                <element signature="e#16084#16111#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mxGraphOutline.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/jgraphx.jar!/com/mxgraph/swing/mxGraphOutline.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="7170">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,16 +133,29 @@
       <file leaf-file-name="SearchToolBar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="2190">
-              <caret line="112" column="68" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2250">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3374#3375#0" expanded="true" />
-                <element signature="e#3406#3407#0" expanded="true" />
+                <element signature="e#3402#3403#0" expanded="true" />
                 <element signature="e#3434#3435#0" expanded="true" />
-                <element signature="e#3466#3467#0" expanded="true" />
+                <element signature="e#3462#3463#0" expanded="true" />
+                <element signature="e#3494#3495#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hs_err_pid6774.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hs_err_pid6774.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5333333" vertical-offset="1364" max-vertical-offset="8310">
+              <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -618,6 +623,8 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Develop/SearchBox/TestProject" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Application.GraphEditor">
     <configuration default="false" name="GraphEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -922,12 +929,12 @@
       <workItem from="1423758822193" duration="8284000" />
       <workItem from="1423829604305" duration="3124000" />
       <workItem from="1423838921918" duration="1067000" />
-      <workItem from="1423847819424" duration="1969000" />
+      <workItem from="1423847819424" duration="4641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19104000" />
+    <option name="totallyTimeSpent" value="21776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -937,6 +944,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20072551" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -952,12 +960,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20072551" sideWeight="0.5222222" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20072551" sideWeight="0.5222222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20164126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23563892" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1052,44 +1059,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4757" max-vertical-offset="6915">
-          <caret line="396" column="23" selection-start-line="396" selection-start-column="23" selection-end-line="396" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#12686#0" expanded="false" />
-            <element signature="e#4884#4885#0" expanded="false" />
-            <element signature="e#4923#4924#0" expanded="false" />
-            <element signature="e#5831#5832#0" expanded="false" />
-            <element signature="e#5847#5848#0" expanded="false" />
-            <element signature="e#5886#5887#0" expanded="false" />
-            <element signature="e#5913#5914#0" expanded="false" />
-            <element signature="e#8673#8674#0" expanded="false" />
-            <element signature="e#8705#8706#0" expanded="false" />
-            <element signature="e#11533#11534#0" expanded="false" />
-            <element signature="e#11568#11569#0" expanded="false" />
-            <element signature="e#11604#11605#0" expanded="false" />
-            <element signature="e#11635#11636#0" expanded="false" />
-            <element signature="e#11683#11684#0" expanded="false" />
-            <element signature="e#11716#11717#0" expanded="false" />
-            <element signature="e#11770#11771#0" expanded="false" />
-            <element signature="e#11804#11805#0" expanded="false" />
-            <element signature="e#12132#12133#0" expanded="false" />
-            <element signature="e#12160#12161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11970">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jgraphx.jar!/com/mxgraph/view/mxGraph.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="39420" max-vertical-offset="50385">
@@ -1117,12 +1086,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="10005" max-vertical-offset="10155">
           <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
           <folding>
-            <element signature="e#1768#1769#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#15909#15910#0" expanded="false" />
-            <element signature="e#15994#15995#0" expanded="false" />
-            <element signature="e#16117#16118#0" expanded="false" />
-            <element signature="e#16149#16150#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1156,6 +1120,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3379#3656#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#9626#9627#0" expanded="true" />
+            <element signature="e#9667#9668#0" expanded="true" />
+            <element signature="e#13426#13453#0" expanded="true" />
+            <element signature="e#16084#16111#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1173,12 +1143,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10245">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1768#1769#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#15909#15910#0" expanded="false" />
-            <element signature="e#15994#15995#0" expanded="false" />
-            <element signature="e#16117#16118#0" expanded="false" />
-            <element signature="e#16149#16150#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1212,6 +1177,12 @@
           <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3379#3656#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#9626#9627#0" expanded="true" />
+            <element signature="e#9667#9668#0" expanded="true" />
+            <element signature="e#13426#13453#0" expanded="true" />
+            <element signature="e#16084#16111#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1221,12 +1192,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10305">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1768#1769#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#15909#15910#0" expanded="false" />
-            <element signature="e#15994#15995#0" expanded="false" />
-            <element signature="e#16117#16118#0" expanded="false" />
-            <element signature="e#16149#16150#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1260,6 +1226,12 @@
           <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3379#3656#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#9626#9627#0" expanded="true" />
+            <element signature="e#9667#9668#0" expanded="true" />
+            <element signature="e#13426#13453#0" expanded="true" />
+            <element signature="e#16084#16111#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1593,21 +1565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/GraphEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10035">
-          <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-          <folding>
-            <element signature="e#1768#1769#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#15909#15910#0" expanded="false" />
-            <element signature="e#15994#15995#0" expanded="false" />
-            <element signature="e#16117#16118#0" expanded="false" />
-            <element signature="e#16149#16150#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorToolBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2595">
@@ -1637,48 +1594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4757" max-vertical-offset="6915">
-          <caret line="396" column="23" selection-start-line="396" selection-start-column="23" selection-end-line="396" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#12686#0" expanded="false" />
-            <element signature="e#4884#4885#0" expanded="false" />
-            <element signature="e#4923#4924#0" expanded="false" />
-            <element signature="e#5831#5832#0" expanded="false" />
-            <element signature="e#5847#5848#0" expanded="false" />
-            <element signature="e#5886#5887#0" expanded="false" />
-            <element signature="e#5913#5914#0" expanded="false" />
-            <element signature="e#8673#8674#0" expanded="false" />
-            <element signature="e#8705#8706#0" expanded="false" />
-            <element signature="e#11533#11534#0" expanded="false" />
-            <element signature="e#11568#11569#0" expanded="false" />
-            <element signature="e#11604#11605#0" expanded="false" />
-            <element signature="e#11635#11636#0" expanded="false" />
-            <element signature="e#11683#11684#0" expanded="false" />
-            <element signature="e#11716#11717#0" expanded="false" />
-            <element signature="e#11770#11771#0" expanded="false" />
-            <element signature="e#11804#11805#0" expanded="false" />
-            <element signature="e#12132#12133#0" expanded="false" />
-            <element signature="e#12160#12161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="2190">
-          <caret line="112" column="68" selection-start-line="112" selection-start-column="68" selection-end-line="112" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3374#3375#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3434#3435#0" expanded="true" />
-            <element signature="e#3466#3467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar!/sun/lwawt/macosx/CDataTransferer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.44" vertical-offset="1199" max-vertical-offset="3420">
@@ -1695,12 +1610,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59241706" vertical-offset="2760" max-vertical-offset="12480">
-          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4757" max-vertical-offset="6915">
+          <caret line="396" column="23" selection-start-line="396" selection-start-column="23" selection-end-line="396" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid6774.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5333333" vertical-offset="1364" max-vertical-offset="8310">
+          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/GraphEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="10035">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2250">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3402#3403#0" expanded="true" />
+            <element signature="e#3434#3435#0" expanded="true" />
+            <element signature="e#3462#3463#0" expanded="true" />
+            <element signature="e#3494#3495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jgraphx.jar!/com/mxgraph/swing/mxGraphOutline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="7170">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.708402" vertical-offset="8858" max-vertical-offset="12870">
+          <caret line="449" column="48" selection-start-line="449" selection-start-column="20" selection-end-line="449" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3379#3656#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#9626#9627#0" expanded="true" />
+            <element signature="e#9667#9668#0" expanded="true" />
+            <element signature="e#13426#13453#0" expanded="true" />
+            <element signature="e#16084#16111#0" expanded="true" />
           </folding>
         </state>
       </provider>
