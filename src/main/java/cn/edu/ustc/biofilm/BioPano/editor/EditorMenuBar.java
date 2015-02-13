@@ -89,56 +89,56 @@ public class EditorMenuBar extends JMenuBar
 		JMenu submenu = null;
 
 		// Creates the file menu
-		menu = add(new JMenu(mxResources.get("file")));
+		menu = add(new JMenu("File"));
 
-		menu.add(editor.bind(mxResources.get("new"), new NewAction(), "/cn/edu/ustc/biofilm/BioPano/images/new.gif"));
-		menu.add(editor.bind(mxResources.get("openFile"), new OpenAction(), "/cn/edu/ustc/biofilm/BioPano/images/open.gif"));
-		menu.add(editor.bind(mxResources.get("importStencil"), new ImportAction(), "/cn/edu/ustc/biofilm/BioPano/images/open.gif"));
-
-		menu.addSeparator();
-
-		menu.add(editor.bind(mxResources.get("save"), new SaveAction(false), "/cn/edu/ustc/biofilm/BioPano/images/save.gif"));
-		menu.add(editor.bind(mxResources.get("saveAs"), new SaveAction(true), "/cn/edu/ustc/biofilm/BioPano/images/saveas.gif"));
+		menu.add(editor.bind("new", new NewAction(), "/cn/edu/ustc/biofilm/BioPano/images/new.gif"));
+		menu.add(editor.bind("openFile", new OpenAction(), "/cn/edu/ustc/biofilm/BioPano/images/open.gif"));
+		menu.add(editor.bind("importStencil", new ImportAction(), "/cn/edu/ustc/biofilm/BioPano/images/open.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("pageSetup"), new PageSetupAction(), "/cn/edu/ustc/biofilm/BioPano/images/pagesetup.gif"));
-		menu.add(editor.bind(mxResources.get("print"), new PrintAction(), "/cn/edu/ustc/biofilm/BioPano/images/print.gif"));
+		menu.add(editor.bind("save", new SaveAction(false), "/cn/edu/ustc/biofilm/BioPano/images/save.gif"));
+		menu.add(editor.bind("saveAs", new SaveAction(true), "/cn/edu/ustc/biofilm/BioPano/images/saveas.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("exit"), new ExitAction()));
+		menu.add(editor.bind("pageSetup", new PageSetupAction(), "/cn/edu/ustc/biofilm/BioPano/images/pagesetup.gif"));
+		menu.add(editor.bind("print", new PrintAction(), "/cn/edu/ustc/biofilm/BioPano/images/print.gif"));
+
+		menu.addSeparator();
+
+		menu.add(editor.bind("exit", new ExitAction()));
 
 		// Creates the edit menu
-		menu = add(new JMenu(mxResources.get("edit")));
+		menu = add(new JMenu("edit"));
 
-		menu.add(editor.bind(mxResources.get("undo"), new HistoryAction(true), "/cn/edu/ustc/biofilm/BioPano/images/undo.gif"));
-		menu.add(editor.bind(mxResources.get("redo"), new HistoryAction(false), "/cn/edu/ustc/biofilm/BioPano/images/redo.gif"));
-
-		menu.addSeparator();
-
-		menu.add(editor.bind(mxResources.get("cut"), TransferHandler.getCutAction(), "/cn/edu/ustc/biofilm/BioPano/images/cut.gif"));
-		menu.add(editor.bind(mxResources.get("copy"), TransferHandler.getCopyAction(), "/cn/edu/ustc/biofilm/BioPano/images/copy.gif"));
-		menu.add(editor.bind(mxResources.get("paste"), TransferHandler.getPasteAction(), "/cn/edu/ustc/biofilm/BioPano/images/paste.gif"));
+		menu.add(editor.bind("undo", new HistoryAction(true), "/cn/edu/ustc/biofilm/BioPano/images/undo.gif"));
+		menu.add(editor.bind("redo", new HistoryAction(false), "/cn/edu/ustc/biofilm/BioPano/images/redo.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("delete"), mxGraphActions.getDeleteAction(), "/cn/edu/ustc/biofilm/BioPano/images/delete.gif"));
+		menu.add(editor.bind("cut", TransferHandler.getCutAction(), "/cn/edu/ustc/biofilm/BioPano/images/cut.gif"));
+		menu.add(editor.bind("copy", TransferHandler.getCopyAction(), "/cn/edu/ustc/biofilm/BioPano/images/copy.gif"));
+		menu.add(editor.bind("paste", TransferHandler.getPasteAction(), "/cn/edu/ustc/biofilm/BioPano/images/paste.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("selectAll"), mxGraphActions.getSelectAllAction()));
-		menu.add(editor.bind(mxResources.get("selectNone"), mxGraphActions.getSelectNoneAction()));
+		menu.add(editor.bind("delete", mxGraphActions.getDeleteAction(), "/cn/edu/ustc/biofilm/BioPano/images/delete.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("warning"), new WarningAction()));
-		menu.add(editor.bind(mxResources.get("edit"), mxGraphActions.getEditAction()));
+		menu.add(editor.bind("selectAll", mxGraphActions.getSelectAllAction()));
+		menu.add(editor.bind("selectNone", mxGraphActions.getSelectNoneAction()));
+
+		menu.addSeparator();
+
+		menu.add(editor.bind("warning", new WarningAction()));
+		menu.add(editor.bind("edit", mxGraphActions.getEditAction()));
 
 		// Creates the view menu
-		menu = add(new JMenu(mxResources.get("view")));
+		menu = add(new JMenu("view"));
 
-		JMenuItem item = menu.add(new TogglePropertyItem(graphComponent, mxResources.get("pageLayout"), "PageVisible", true,
+		JMenuItem item = menu.add(new TogglePropertyItem(graphComponent, "pageLayout", "PageVisible", true,
 				new ActionListener()
 				{
 					/**
@@ -200,16 +200,16 @@ public class EditorMenuBar extends JMenuBar
 			}
 		});
 
-		menu.add(new TogglePropertyItem(graphComponent, mxResources.get("antialias"), "AntiAlias", true));
+		menu.add(new TogglePropertyItem(graphComponent, "antialias", "AntiAlias", true));
 
 		menu.addSeparator();
 
-		menu.add(new ToggleGridItem(editor, mxResources.get("grid")));
-		menu.add(new ToggleRulersItem(editor, mxResources.get("rulers")));
+		menu.add(new ToggleGridItem(editor, "grid"));
+		menu.add(new ToggleRulersItem(editor, "rulers"));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("zoom")));
+		submenu = (JMenu) menu.add(new JMenu("zoom"));
 
 		submenu.add(editor.bind("400%", new ScaleAction(4)));
 		submenu.add(editor.bind("200%", new ScaleAction(2)));
@@ -220,63 +220,63 @@ public class EditorMenuBar extends JMenuBar
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("custom"), new ScaleAction(0)));
+		submenu.add(editor.bind("custom", new ScaleAction(0)));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("zoomIn"), mxGraphActions.getZoomInAction()));
-		menu.add(editor.bind(mxResources.get("zoomOut"), mxGraphActions.getZoomOutAction()));
+		menu.add(editor.bind("zoomIn", mxGraphActions.getZoomInAction()));
+		menu.add(editor.bind("zoomOut", mxGraphActions.getZoomOutAction()));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("page"), new ZoomPolicyAction(mxGraphComponent.ZOOM_POLICY_PAGE)));
-		menu.add(editor.bind(mxResources.get("width"), new ZoomPolicyAction(mxGraphComponent.ZOOM_POLICY_WIDTH)));
+		menu.add(editor.bind("page", new ZoomPolicyAction(mxGraphComponent.ZOOM_POLICY_PAGE)));
+		menu.add(editor.bind("width", new ZoomPolicyAction(mxGraphComponent.ZOOM_POLICY_WIDTH)));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("actualSize"), mxGraphActions.getZoomActualAction()));
+		menu.add(editor.bind("actualSize", mxGraphActions.getZoomActualAction()));
 
 		// Creates the format menu
-		menu = add(new JMenu(mxResources.get("format")));
+		menu = add(new JMenu("format"));
 
 		populateFormatMenu(menu, editor);
 
 		// Creates the shape menu
-		menu = add(new JMenu(mxResources.get("shape")));
+		menu = add(new JMenu("shape"));
 
 		populateShapeMenu(menu, editor);
 
 		// Creates the diagram menu
-		menu = add(new JMenu(mxResources.get("diagram")));
+		menu = add(new JMenu("diagram"));
 
-		menu.add(new ToggleOutlineItem(editor, mxResources.get("outline")));
-
-		menu.addSeparator();
-
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("background")));
-
-		submenu.add(editor.bind(mxResources.get("backgroundColor"), new BackgroundAction()));
-		submenu.add(editor.bind(mxResources.get("backgroundImage"), new BackgroundImageAction()));
-
-		submenu.addSeparator();
-
-		submenu.add(editor.bind(mxResources.get("pageBackground"), new PageBackgroundAction()));
-
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("grid")));
-
-		submenu.add(editor.bind(mxResources.get("gridSize"), new PromptPropertyAction(graph, "Grid Size", "GridSize")));
-		submenu.add(editor.bind(mxResources.get("gridColor"), new GridColorAction()));
-
-		submenu.addSeparator();
-
-		submenu.add(editor.bind(mxResources.get("dashed"), new GridStyleAction(mxGraphComponent.GRID_STYLE_DASHED)));
-		submenu.add(editor.bind(mxResources.get("dot"), new GridStyleAction(mxGraphComponent.GRID_STYLE_DOT)));
-		submenu.add(editor.bind(mxResources.get("line"), new GridStyleAction(mxGraphComponent.GRID_STYLE_LINE)));
-		submenu.add(editor.bind(mxResources.get("cross"), new GridStyleAction(mxGraphComponent.GRID_STYLE_CROSS)));
+		menu.add(new ToggleOutlineItem(editor, "outline"));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("layout")));
+		submenu = (JMenu) menu.add(new JMenu("background"));
+
+		submenu.add(editor.bind("backgroundColor", new BackgroundAction()));
+		submenu.add(editor.bind("backgroundImage", new BackgroundImageAction()));
+
+		submenu.addSeparator();
+
+		submenu.add(editor.bind("pageBackground", new PageBackgroundAction()));
+
+		submenu = (JMenu) menu.add(new JMenu("grid"));
+
+		submenu.add(editor.bind("gridSize", new PromptPropertyAction(graph, "Grid Size", "GridSize")));
+		submenu.add(editor.bind("gridColor", new GridColorAction()));
+
+		submenu.addSeparator();
+
+		submenu.add(editor.bind("dashed", new GridStyleAction(mxGraphComponent.GRID_STYLE_DASHED)));
+		submenu.add(editor.bind("dot", new GridStyleAction(mxGraphComponent.GRID_STYLE_DOT)));
+		submenu.add(editor.bind("line", new GridStyleAction(mxGraphComponent.GRID_STYLE_LINE)));
+		submenu.add(editor.bind("cross", new GridStyleAction(mxGraphComponent.GRID_STYLE_CROSS)));
+
+		menu.addSeparator();
+
+		submenu = (JMenu) menu.add(new JMenu("layout"));
 
 		submenu.add(editor.graphLayout("verticalHierarchical", true));
 		submenu.add(editor.graphLayout("horizontalHierarchical", true));
@@ -306,32 +306,32 @@ public class EditorMenuBar extends JMenuBar
 		submenu.add(editor.graphLayout("organicLayout", true));
 		submenu.add(editor.graphLayout("circleLayout", true));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("selection")));
+		submenu = (JMenu) menu.add(new JMenu("selection"));
 
-		submenu.add(editor.bind(mxResources.get("selectPath"), new SelectShortestPathAction(false)));
-		submenu.add(editor.bind(mxResources.get("selectDirectedPath"), new SelectShortestPathAction(true)));
+		submenu.add(editor.bind("selectPath", new SelectShortestPathAction(false)));
+		submenu.add(editor.bind("selectDirectedPath", new SelectShortestPathAction(true)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("selectTree"), new SelectSpanningTreeAction(false)));
-		submenu.add(editor.bind(mxResources.get("selectDirectedTree"), new SelectSpanningTreeAction(true)));
+		submenu.add(editor.bind("selectTree", new SelectSpanningTreeAction(false)));
+		submenu.add(editor.bind("selectDirectedTree", new SelectSpanningTreeAction(true)));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("stylesheet")));
+		submenu = (JMenu) menu.add(new JMenu("stylesheet"));
 
-		submenu.add(editor.bind(mxResources.get("basicStyle"),
+		submenu.add(editor.bind("basicStyle",
 				new StylesheetAction("/cn/edu/ustc/biofilm/BioPano/resources/basic-style.xml")));
-		submenu.add(editor.bind(mxResources.get("defaultStyle"), new StylesheetAction(
+		submenu.add(editor.bind("defaultStyle", new StylesheetAction(
 				"/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml")));
 
 		// Creates the options menu
-		menu = add(new JMenu(mxResources.get("options")));
+		menu = add(new JMenu("options"));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("display")));
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("buffering"), "TripleBuffered", true));
+		submenu = (JMenu) menu.add(new JMenu("display"));
+		submenu.add(new TogglePropertyItem(graphComponent, "buffering", "TripleBuffered", true));
 
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("preferPageSize"), "PreferPageSize", true, new ActionListener()
+		submenu.add(new TogglePropertyItem(graphComponent, "preferPageSize", "PreferPageSize", true, new ActionListener()
 		{
 			/**
 			 * 
@@ -344,22 +344,22 @@ public class EditorMenuBar extends JMenuBar
 
 		// TODO: This feature is not yet implemented
 		//submenu.add(new TogglePropertyItem(graphComponent, mxResources
-		//		.get("pageBreaks"), "PageBreaksVisible", true));
+		//		.get("pageBreaks", "PageBreaksVisible", true));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("tolerance"), new PromptPropertyAction(graphComponent, "Tolerance")));
+		submenu.add(editor.bind("tolerance", new PromptPropertyAction(graphComponent, "Tolerance")));
 
-		submenu.add(editor.bind(mxResources.get("dirty"), new ToggleDirtyAction()));
+		submenu.add(editor.bind("dirty", new ToggleDirtyAction()));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("zoom")));
+		submenu = (JMenu) menu.add(new JMenu("zoom"));
 
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("centerZoom"), "CenterZoom", true));
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("zoomToSelection"), "KeepSelectionVisibleOnZoom", true));
+		submenu.add(new TogglePropertyItem(graphComponent, "centerZoom", "CenterZoom", true));
+		submenu.add(new TogglePropertyItem(graphComponent, "zoomToSelection", "KeepSelectionVisibleOnZoom", true));
 
 		submenu.addSeparator();
 
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("centerPage"), "CenterPage", true, new ActionListener()
+		submenu.add(new TogglePropertyItem(graphComponent, "centerPage", "CenterPage", true, new ActionListener()
 		{
 			/**
 			 * 
@@ -375,57 +375,57 @@ public class EditorMenuBar extends JMenuBar
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("dragAndDrop")));
+		submenu = (JMenu) menu.add(new JMenu("dragAndDrop"));
 
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("dragEnabled"), "DragEnabled"));
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("dropEnabled"), "DropEnabled"));
-
-		submenu.addSeparator();
-
-		submenu.add(new TogglePropertyItem(graphComponent.getGraphHandler(), mxResources.get("imagePreview"), "ImagePreview"));
-
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("labels")));
-
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("htmlLabels"), "HtmlLabels", true));
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("showLabels"), "LabelsVisible", true));
+		submenu.add(new TogglePropertyItem(graphComponent, "dragEnabled", "DragEnabled"));
+		submenu.add(new TogglePropertyItem(graph, "dropEnabled", "DropEnabled"));
 
 		submenu.addSeparator();
 
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("moveEdgeLabels"), "EdgeLabelsMovable"));
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("moveVertexLabels"), "VertexLabelsMovable"));
+		submenu.add(new TogglePropertyItem(graphComponent.getGraphHandler(), "imagePreview", "ImagePreview"));
+
+		submenu = (JMenu) menu.add(new JMenu("labels"));
+
+		submenu.add(new TogglePropertyItem(graph, "htmlLabels", "HtmlLabels", true));
+		submenu.add(new TogglePropertyItem(graph, "showLabels", "LabelsVisible", true));
 
 		submenu.addSeparator();
 
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("handleReturn"), "EnterStopsCellEditing"));
+		submenu.add(new TogglePropertyItem(graph, "moveEdgeLabels", "EdgeLabelsMovable"));
+		submenu.add(new TogglePropertyItem(graph, "moveVertexLabels", "VertexLabelsMovable"));
+
+		submenu.addSeparator();
+
+		submenu.add(new TogglePropertyItem(graphComponent, "handleReturn", "EnterStopsCellEditing"));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("connections")));
+		submenu = (JMenu) menu.add(new JMenu("connections"));
 
-		submenu.add(new TogglePropertyItem(graphComponent, mxResources.get("connectable"), "Connectable"));
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("connectableEdges"), "ConnectableEdges"));
-
-		submenu.addSeparator();
-
-		submenu.add(new ToggleCreateTargetItem(editor, mxResources.get("createTarget")));
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("disconnectOnMove"), "DisconnectOnMove"));
+		submenu.add(new TogglePropertyItem(graphComponent, "connectable", "Connectable"));
+		submenu.add(new TogglePropertyItem(graph, "connectableEdges", "ConnectableEdges"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("connectMode"), new ToggleConnectModeAction()));
-
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("validation")));
-
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("allowDanglingEdges"), "AllowDanglingEdges"));
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("cloneInvalidEdges"), "CloneInvalidEdges"));
+		submenu.add(new ToggleCreateTargetItem(editor, "createTarget"));
+		submenu.add(new TogglePropertyItem(graph, "disconnectOnMove", "DisconnectOnMove"));
 
 		submenu.addSeparator();
 
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("allowLoops"), "AllowLoops"));
-		submenu.add(new TogglePropertyItem(graph, mxResources.get("multigraph"), "Multigraph"));
+		submenu.add(editor.bind("connectMode", new ToggleConnectModeAction()));
+
+		submenu = (JMenu) menu.add(new JMenu("validation"));
+
+		submenu.add(new TogglePropertyItem(graph, "allowDanglingEdges", "AllowDanglingEdges"));
+		submenu.add(new TogglePropertyItem(graph, "cloneInvalidEdges", "CloneInvalidEdges"));
+
+		submenu.addSeparator();
+
+		submenu.add(new TogglePropertyItem(graph, "allowLoops", "AllowLoops"));
+		submenu.add(new TogglePropertyItem(graph, "multigraph", "Multigraph"));
 
 		// Creates the window menu
-		menu = add(new JMenu(mxResources.get("window")));
+		menu = add(new JMenu("window"));
 
 		UIManager.LookAndFeelInfo[] lafs = UIManager.getInstalledLookAndFeels();
 
@@ -500,9 +500,9 @@ public class EditorMenuBar extends JMenuBar
 		menu.add(editor.bind("Is biconnected", new AnalyzeGraph(AnalyzeType.IS_BICONNECTED, aGraph)));
 
 		// Creates the help menu
-		menu = add(new JMenu(mxResources.get("help")));
+		menu = add(new JMenu("help"));
 
-		item = menu.add(new JMenuItem(mxResources.get("aboutGraphEditor")));
+		item = menu.add(new JMenuItem("aboutGraphEditor"));
 		item.addActionListener(new ActionListener()
 		{
 			/*
@@ -522,61 +522,61 @@ public class EditorMenuBar extends JMenuBar
 	 */
 	public static void populateShapeMenu(JMenu menu, BasicGraphEditor editor)
 	{
-		menu.add(editor.bind(mxResources.get("home"), mxGraphActions.getHomeAction(), "/cn/edu/ustc/biofilm/BioPano/images/house.gif"));
+		menu.add(editor.bind("home", mxGraphActions.getHomeAction(), "/cn/edu/ustc/biofilm/BioPano/images/house.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("exitGroup"), mxGraphActions.getExitGroupAction(), "/cn/edu/ustc/biofilm/BioPano/images/up.gif"));
-		menu.add(editor.bind(mxResources.get("enterGroup"), mxGraphActions.getEnterGroupAction(),
+		menu.add(editor.bind("exitGroup", mxGraphActions.getExitGroupAction(), "/cn/edu/ustc/biofilm/BioPano/images/up.gif"));
+		menu.add(editor.bind("enterGroup", mxGraphActions.getEnterGroupAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/down.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("group"), mxGraphActions.getGroupAction(), "/cn/edu/ustc/biofilm/BioPano/images/group.gif"));
-		menu.add(editor.bind(mxResources.get("ungroup"), mxGraphActions.getUngroupAction(),
+		menu.add(editor.bind("group", mxGraphActions.getGroupAction(), "/cn/edu/ustc/biofilm/BioPano/images/group.gif"));
+		menu.add(editor.bind("ungroup", mxGraphActions.getUngroupAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/ungroup.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("removeFromGroup"), mxGraphActions.getRemoveFromParentAction()));
+		menu.add(editor.bind("removeFromGroup", mxGraphActions.getRemoveFromParentAction()));
 
-		menu.add(editor.bind(mxResources.get("updateGroupBounds"), mxGraphActions.getUpdateGroupBoundsAction()));
+		menu.add(editor.bind("updateGroupBounds", mxGraphActions.getUpdateGroupBoundsAction()));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("collapse"), mxGraphActions.getCollapseAction(),
+		menu.add(editor.bind("collapse", mxGraphActions.getCollapseAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/collapse.gif"));
-		menu.add(editor.bind(mxResources.get("expand"), mxGraphActions.getExpandAction(), "/cn/edu/ustc/biofilm/BioPano/images/expand.gif"));
+		menu.add(editor.bind("expand", mxGraphActions.getExpandAction(), "/cn/edu/ustc/biofilm/BioPano/images/expand.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("toBack"), mxGraphActions.getToBackAction(), "/cn/edu/ustc/biofilm/BioPano/images/toback.gif"));
-		menu.add(editor.bind(mxResources.get("toFront"), mxGraphActions.getToFrontAction(),
+		menu.add(editor.bind("toBack", mxGraphActions.getToBackAction(), "/cn/edu/ustc/biofilm/BioPano/images/toback.gif"));
+		menu.add(editor.bind("toFront", mxGraphActions.getToFrontAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/tofront.gif"));
 
 		menu.addSeparator();
 
-		JMenu submenu = (JMenu) menu.add(new JMenu(mxResources.get("align")));
+		JMenu submenu = (JMenu) menu.add(new JMenu("align"));
 
-		submenu.add(editor.bind(mxResources.get("left"), new AlignCellsAction(mxConstants.ALIGN_LEFT),
+		submenu.add(editor.bind("left", new AlignCellsAction(mxConstants.ALIGN_LEFT),
 				"/cn/edu/ustc/biofilm/BioPano/images/alignleft.gif"));
-		submenu.add(editor.bind(mxResources.get("center"), new AlignCellsAction(mxConstants.ALIGN_CENTER),
+		submenu.add(editor.bind("center", new AlignCellsAction(mxConstants.ALIGN_CENTER),
 				"/cn/edu/ustc/biofilm/BioPano/images/aligncenter.gif"));
-		submenu.add(editor.bind(mxResources.get("right"), new AlignCellsAction(mxConstants.ALIGN_RIGHT),
+		submenu.add(editor.bind("right", new AlignCellsAction(mxConstants.ALIGN_RIGHT),
 				"/cn/edu/ustc/biofilm/BioPano/images/alignright.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("top"), new AlignCellsAction(mxConstants.ALIGN_TOP),
+		submenu.add(editor.bind("top", new AlignCellsAction(mxConstants.ALIGN_TOP),
 				"/cn/edu/ustc/biofilm/BioPano/images/aligntop.gif"));
-		submenu.add(editor.bind(mxResources.get("middle"), new AlignCellsAction(mxConstants.ALIGN_MIDDLE),
+		submenu.add(editor.bind("middle", new AlignCellsAction(mxConstants.ALIGN_MIDDLE),
 				"/cn/edu/ustc/biofilm/BioPano/images/alignmiddle.gif"));
-		submenu.add(editor.bind(mxResources.get("bottom"), new AlignCellsAction(mxConstants.ALIGN_BOTTOM),
+		submenu.add(editor.bind("bottom", new AlignCellsAction(mxConstants.ALIGN_BOTTOM),
 				"/cn/edu/ustc/biofilm/BioPano/images/alignbottom.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("autosize"), new AutosizeAction()));
+		menu.add(editor.bind("autosize", new AutosizeAction()));
 
 	}
 
@@ -586,200 +586,200 @@ public class EditorMenuBar extends JMenuBar
 	 */
 	public static void populateFormatMenu(JMenu menu, BasicGraphEditor editor)
 	{
-		JMenu submenu = (JMenu) menu.add(new JMenu(mxResources.get("background")));
+		JMenu submenu = (JMenu) menu.add(new JMenu("background"));
 
-		submenu.add(editor.bind(mxResources.get("fillcolor"), new ColorAction("Fillcolor", mxConstants.STYLE_FILLCOLOR),
+		submenu.add(editor.bind("fillcolor", new ColorAction("Fillcolor", mxConstants.STYLE_FILLCOLOR),
 				"/cn/edu/ustc/biofilm/BioPano/images/fillcolor.gif"));
-		submenu.add(editor.bind(mxResources.get("gradient"), new ColorAction("Gradient", mxConstants.STYLE_GRADIENTCOLOR)));
+		submenu.add(editor.bind("gradient", new ColorAction("Gradient", mxConstants.STYLE_GRADIENTCOLOR)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("image"), new PromptValueAction(mxConstants.STYLE_IMAGE, "Image")));
-		submenu.add(editor.bind(mxResources.get("shadow"), new ToggleAction(mxConstants.STYLE_SHADOW)));
+		submenu.add(editor.bind("image", new PromptValueAction(mxConstants.STYLE_IMAGE, "Image")));
+		submenu.add(editor.bind("shadow", new ToggleAction(mxConstants.STYLE_SHADOW)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("opacity"), new PromptValueAction(mxConstants.STYLE_OPACITY, "Opacity (0-100)")));
+		submenu.add(editor.bind("opacity", new PromptValueAction(mxConstants.STYLE_OPACITY, "Opacity (0-100)")));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("label")));
+		submenu = (JMenu) menu.add(new JMenu("label"));
 
-		submenu.add(editor.bind(mxResources.get("fontcolor"), new ColorAction("Fontcolor", mxConstants.STYLE_FONTCOLOR),
+		submenu.add(editor.bind("fontcolor", new ColorAction("Fontcolor", mxConstants.STYLE_FONTCOLOR),
 				"/cn/edu/ustc/biofilm/BioPano/images/fontcolor.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("labelFill"), new ColorAction("Label Fill", mxConstants.STYLE_LABEL_BACKGROUNDCOLOR)));
-		submenu.add(editor.bind(mxResources.get("labelBorder"), new ColorAction("Label Border", mxConstants.STYLE_LABEL_BORDERCOLOR)));
+		submenu.add(editor.bind("labelFill", new ColorAction("Label Fill", mxConstants.STYLE_LABEL_BACKGROUNDCOLOR)));
+		submenu.add(editor.bind("labelBorder", new ColorAction("Label Border", mxConstants.STYLE_LABEL_BORDERCOLOR)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("rotateLabel"), new ToggleAction(mxConstants.STYLE_HORIZONTAL, true)));
+		submenu.add(editor.bind("rotateLabel", new ToggleAction(mxConstants.STYLE_HORIZONTAL, true)));
 
-		submenu.add(editor.bind(mxResources.get("textOpacity"), new PromptValueAction(mxConstants.STYLE_TEXT_OPACITY, "Opacity (0-100)")));
+		submenu.add(editor.bind("textOpacity", new PromptValueAction(mxConstants.STYLE_TEXT_OPACITY, "Opacity (0-100)")));
 
 		submenu.addSeparator();
 
-		JMenu subsubmenu = (JMenu) submenu.add(new JMenu(mxResources.get("position")));
+		JMenu subsubmenu = (JMenu) submenu.add(new JMenu("position"));
 
-		subsubmenu.add(editor.bind(mxResources.get("top"), new SetLabelPositionAction(mxConstants.ALIGN_TOP, mxConstants.ALIGN_BOTTOM)));
-		subsubmenu.add(editor.bind(mxResources.get("middle"),
+		subsubmenu.add(editor.bind("top", new SetLabelPositionAction(mxConstants.ALIGN_TOP, mxConstants.ALIGN_BOTTOM)));
+		subsubmenu.add(editor.bind("middle",
 				new SetLabelPositionAction(mxConstants.ALIGN_MIDDLE, mxConstants.ALIGN_MIDDLE)));
-		subsubmenu.add(editor.bind(mxResources.get("bottom"), new SetLabelPositionAction(mxConstants.ALIGN_BOTTOM, mxConstants.ALIGN_TOP)));
+		subsubmenu.add(editor.bind("bottom", new SetLabelPositionAction(mxConstants.ALIGN_BOTTOM, mxConstants.ALIGN_TOP)));
 
 		subsubmenu.addSeparator();
 
-		subsubmenu.add(editor.bind(mxResources.get("left"), new SetLabelPositionAction(mxConstants.ALIGN_LEFT, mxConstants.ALIGN_RIGHT)));
-		subsubmenu.add(editor.bind(mxResources.get("center"),
+		subsubmenu.add(editor.bind("left", new SetLabelPositionAction(mxConstants.ALIGN_LEFT, mxConstants.ALIGN_RIGHT)));
+		subsubmenu.add(editor.bind("center",
 				new SetLabelPositionAction(mxConstants.ALIGN_CENTER, mxConstants.ALIGN_CENTER)));
-		subsubmenu.add(editor.bind(mxResources.get("right"), new SetLabelPositionAction(mxConstants.ALIGN_RIGHT, mxConstants.ALIGN_LEFT)));
+		subsubmenu.add(editor.bind("right", new SetLabelPositionAction(mxConstants.ALIGN_RIGHT, mxConstants.ALIGN_LEFT)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("wordWrap"), new KeyValueAction(mxConstants.STYLE_WHITE_SPACE, "wrap")));
-		submenu.add(editor.bind(mxResources.get("noWordWrap"), new KeyValueAction(mxConstants.STYLE_WHITE_SPACE, null)));
+		submenu.add(editor.bind("wordWrap", new KeyValueAction(mxConstants.STYLE_WHITE_SPACE, "wrap")));
+		submenu.add(editor.bind("noWordWrap", new KeyValueAction(mxConstants.STYLE_WHITE_SPACE, null)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("hide"), new ToggleAction(mxConstants.STYLE_NOLABEL)));
+		submenu.add(editor.bind("hide", new ToggleAction(mxConstants.STYLE_NOLABEL)));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("line")));
+		submenu = (JMenu) menu.add(new JMenu("line"));
 
-		submenu.add(editor.bind(mxResources.get("linecolor"), new ColorAction("Linecolor", mxConstants.STYLE_STROKECOLOR),
+		submenu.add(editor.bind("linecolor", new ColorAction("Linecolor", mxConstants.STYLE_STROKECOLOR),
 				"/cn/edu/ustc/biofilm/BioPano/images/linecolor.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("orthogonal"), new ToggleAction(mxConstants.STYLE_ORTHOGONAL)));
-		submenu.add(editor.bind(mxResources.get("dashed"), new ToggleAction(mxConstants.STYLE_DASHED)));
+		submenu.add(editor.bind("orthogonal", new ToggleAction(mxConstants.STYLE_ORTHOGONAL)));
+		submenu.add(editor.bind("dashed", new ToggleAction(mxConstants.STYLE_DASHED)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("linewidth"), new PromptValueAction(mxConstants.STYLE_STROKEWIDTH, "Linewidth")));
+		submenu.add(editor.bind("linewidth", new PromptValueAction(mxConstants.STYLE_STROKEWIDTH, "Linewidth")));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("connector")));
+		submenu = (JMenu) menu.add(new JMenu("connector"));
 
-		submenu.add(editor.bind(mxResources.get("straight"), new SetStyleAction("straight"),
+		submenu.add(editor.bind("straight", new SetStyleAction("straight"),
 				"/cn/edu/ustc/biofilm/BioPano/images/straight.gif"));
 
-		submenu.add(editor.bind(mxResources.get("horizontal"), new SetStyleAction(""), "/cn/edu/ustc/biofilm/BioPano/images/connect.gif"));
-		submenu.add(editor.bind(mxResources.get("vertical"), new SetStyleAction("vertical"),
+		submenu.add(editor.bind("horizontal", new SetStyleAction(""), "/cn/edu/ustc/biofilm/BioPano/images/connect.gif"));
+		submenu.add(editor.bind("vertical", new SetStyleAction("vertical"),
 				"/cn/edu/ustc/biofilm/BioPano/images/vertical.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("entityRelation"), new SetStyleAction("edgeStyle=mxEdgeStyle.EntityRelation"),
+		submenu.add(editor.bind("entityRelation", new SetStyleAction("edgeStyle=mxEdgeStyle.EntityRelation"),
 				"/cn/edu/ustc/biofilm/BioPano/images/entity.gif"));
-		submenu.add(editor.bind(mxResources.get("arrow"), new SetStyleAction("arrow"), "/cn/edu/ustc/biofilm/BioPano/images/arrow.gif"));
+		submenu.add(editor.bind("arrow", new SetStyleAction("arrow"), "/cn/edu/ustc/biofilm/BioPano/images/arrow.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("plain"), new ToggleAction(mxConstants.STYLE_NOEDGESTYLE)));
+		submenu.add(editor.bind("plain", new ToggleAction(mxConstants.STYLE_NOEDGESTYLE)));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("linestart")));
+		submenu = (JMenu) menu.add(new JMenu("linestart"));
 
-		submenu.add(editor.bind(mxResources.get("open"), new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_OPEN),
+		submenu.add(editor.bind("open", new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_OPEN),
 				"/cn/edu/ustc/biofilm/BioPano/images/open_start.gif"));
-		submenu.add(editor.bind(mxResources.get("classic"), new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_CLASSIC),
+		submenu.add(editor.bind("classic", new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_CLASSIC),
 				"/cn/edu/ustc/biofilm/BioPano/images/classic_start.gif"));
-		submenu.add(editor.bind(mxResources.get("block"), new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_BLOCK),
+		submenu.add(editor.bind("block", new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_BLOCK),
 				"/cn/edu/ustc/biofilm/BioPano/images/block_start.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("diamond"), new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_DIAMOND),
+		submenu.add(editor.bind("diamond", new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_DIAMOND),
 				"/cn/edu/ustc/biofilm/BioPano/images/diamond_start.gif"));
-		submenu.add(editor.bind(mxResources.get("oval"), new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_OVAL),
+		submenu.add(editor.bind("oval", new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.ARROW_OVAL),
 				"/cn/edu/ustc/biofilm/BioPano/images/oval_start.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("none"), new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.NONE)));
-		submenu.add(editor.bind(mxResources.get("size"), new PromptValueAction(mxConstants.STYLE_STARTSIZE, "Linestart Size")));
+		submenu.add(editor.bind("none", new KeyValueAction(mxConstants.STYLE_STARTARROW, mxConstants.NONE)));
+		submenu.add(editor.bind("size", new PromptValueAction(mxConstants.STYLE_STARTSIZE, "Linestart Size")));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("lineend")));
+		submenu = (JMenu) menu.add(new JMenu("lineend"));
 
-		submenu.add(editor.bind(mxResources.get("open"), new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_OPEN),
+		submenu.add(editor.bind("open", new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_OPEN),
 				"/cn/edu/ustc/biofilm/BioPano/images/open_end.gif"));
-		submenu.add(editor.bind(mxResources.get("classic"), new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_CLASSIC),
+		submenu.add(editor.bind("classic", new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_CLASSIC),
 				"/cn/edu/ustc/biofilm/BioPano/images/classic_end.gif"));
-		submenu.add(editor.bind(mxResources.get("block"), new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_BLOCK),
+		submenu.add(editor.bind("block", new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_BLOCK),
 				"/cn/edu/ustc/biofilm/BioPano/images/block_end.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("diamond"), new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_DIAMOND),
+		submenu.add(editor.bind("diamond", new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_DIAMOND),
 				"/cn/edu/ustc/biofilm/BioPano/images/diamond_end.gif"));
-		submenu.add(editor.bind(mxResources.get("oval"), new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_OVAL),
+		submenu.add(editor.bind("oval", new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.ARROW_OVAL),
 				"/cn/edu/ustc/biofilm/BioPano/images/oval_end.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("none"), new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.NONE)));
-		submenu.add(editor.bind(mxResources.get("size"), new PromptValueAction(mxConstants.STYLE_ENDSIZE, "Lineend Size")));
+		submenu.add(editor.bind("none", new KeyValueAction(mxConstants.STYLE_ENDARROW, mxConstants.NONE)));
+		submenu.add(editor.bind("size", new PromptValueAction(mxConstants.STYLE_ENDSIZE, "Lineend Size")));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("alignment")));
+		submenu = (JMenu) menu.add(new JMenu("alignment"));
 
-		submenu.add(editor.bind(mxResources.get("left"), new KeyValueAction(mxConstants.STYLE_ALIGN, mxConstants.ALIGN_LEFT),
+		submenu.add(editor.bind("left", new KeyValueAction(mxConstants.STYLE_ALIGN, mxConstants.ALIGN_LEFT),
 				"/cn/edu/ustc/biofilm/BioPano/images/left.gif"));
-		submenu.add(editor.bind(mxResources.get("center"), new KeyValueAction(mxConstants.STYLE_ALIGN, mxConstants.ALIGN_CENTER),
+		submenu.add(editor.bind("center", new KeyValueAction(mxConstants.STYLE_ALIGN, mxConstants.ALIGN_CENTER),
 				"/cn/edu/ustc/biofilm/BioPano/images/center.gif"));
-		submenu.add(editor.bind(mxResources.get("right"), new KeyValueAction(mxConstants.STYLE_ALIGN, mxConstants.ALIGN_RIGHT),
+		submenu.add(editor.bind("right", new KeyValueAction(mxConstants.STYLE_ALIGN, mxConstants.ALIGN_RIGHT),
 				"/cn/edu/ustc/biofilm/BioPano/images/right.gif"));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("top"), new KeyValueAction(mxConstants.STYLE_VERTICAL_ALIGN, mxConstants.ALIGN_TOP),
+		submenu.add(editor.bind("top", new KeyValueAction(mxConstants.STYLE_VERTICAL_ALIGN, mxConstants.ALIGN_TOP),
 				"/cn/edu/ustc/biofilm/BioPano/images/top.gif"));
-		submenu.add(editor.bind(mxResources.get("middle"), new KeyValueAction(mxConstants.STYLE_VERTICAL_ALIGN, mxConstants.ALIGN_MIDDLE),
+		submenu.add(editor.bind("middle", new KeyValueAction(mxConstants.STYLE_VERTICAL_ALIGN, mxConstants.ALIGN_MIDDLE),
 				"/cn/edu/ustc/biofilm/BioPano/images/middle.gif"));
-		submenu.add(editor.bind(mxResources.get("bottom"), new KeyValueAction(mxConstants.STYLE_VERTICAL_ALIGN, mxConstants.ALIGN_BOTTOM),
+		submenu.add(editor.bind("bottom", new KeyValueAction(mxConstants.STYLE_VERTICAL_ALIGN, mxConstants.ALIGN_BOTTOM),
 				"/cn/edu/ustc/biofilm/BioPano/images/bottom.gif"));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("spacing")));
+		submenu = (JMenu) menu.add(new JMenu("spacing"));
 
-		submenu.add(editor.bind(mxResources.get("top"), new PromptValueAction(mxConstants.STYLE_SPACING_TOP, "Top Spacing")));
-		submenu.add(editor.bind(mxResources.get("right"), new PromptValueAction(mxConstants.STYLE_SPACING_RIGHT, "Right Spacing")));
-		submenu.add(editor.bind(mxResources.get("bottom"), new PromptValueAction(mxConstants.STYLE_SPACING_BOTTOM, "Bottom Spacing")));
-		submenu.add(editor.bind(mxResources.get("left"), new PromptValueAction(mxConstants.STYLE_SPACING_LEFT, "Left Spacing")));
-
-		submenu.addSeparator();
-
-		submenu.add(editor.bind(mxResources.get("global"), new PromptValueAction(mxConstants.STYLE_SPACING, "Spacing")));
+		submenu.add(editor.bind("top", new PromptValueAction(mxConstants.STYLE_SPACING_TOP, "Top Spacing")));
+		submenu.add(editor.bind("right", new PromptValueAction(mxConstants.STYLE_SPACING_RIGHT, "Right Spacing")));
+		submenu.add(editor.bind("bottom", new PromptValueAction(mxConstants.STYLE_SPACING_BOTTOM, "Bottom Spacing")));
+		submenu.add(editor.bind("left", new PromptValueAction(mxConstants.STYLE_SPACING_LEFT, "Left Spacing")));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("sourceSpacing"), new PromptValueAction(mxConstants.STYLE_SOURCE_PERIMETER_SPACING,
-				mxResources.get("sourceSpacing"))));
-		submenu.add(editor.bind(mxResources.get("targetSpacing"), new PromptValueAction(mxConstants.STYLE_TARGET_PERIMETER_SPACING,
-				mxResources.get("targetSpacing"))));
+		submenu.add(editor.bind("global", new PromptValueAction(mxConstants.STYLE_SPACING, "Spacing")));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("perimeter"), new PromptValueAction(mxConstants.STYLE_PERIMETER_SPACING,
+		submenu.add(editor.bind("sourceSpacing", new PromptValueAction(mxConstants.STYLE_SOURCE_PERIMETER_SPACING,
+				"sourceSpacing")));
+		submenu.add(editor.bind("targetSpacing", new PromptValueAction(mxConstants.STYLE_TARGET_PERIMETER_SPACING,
+				"targetSpacing")));
+
+		submenu.addSeparator();
+
+		submenu.add(editor.bind("perimeter", new PromptValueAction(mxConstants.STYLE_PERIMETER_SPACING,
 				"Perimeter Spacing")));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("direction")));
+		submenu = (JMenu) menu.add(new JMenu("direction"));
 
-		submenu.add(editor.bind(mxResources.get("north"), new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_NORTH)));
-		submenu.add(editor.bind(mxResources.get("east"), new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_EAST)));
-		submenu.add(editor.bind(mxResources.get("south"), new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_SOUTH)));
-		submenu.add(editor.bind(mxResources.get("west"), new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_WEST)));
+		submenu.add(editor.bind("north", new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_NORTH)));
+		submenu.add(editor.bind("east", new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_EAST)));
+		submenu.add(editor.bind("south", new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_SOUTH)));
+		submenu.add(editor.bind("west", new KeyValueAction(mxConstants.STYLE_DIRECTION, mxConstants.DIRECTION_WEST)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("rotation"), new PromptValueAction(mxConstants.STYLE_ROTATION, "Rotation (0-360)")));
+		submenu.add(editor.bind("rotation", new PromptValueAction(mxConstants.STYLE_ROTATION, "Rotation (0-360)")));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("rounded"), new ToggleAction(mxConstants.STYLE_ROUNDED)));
+		menu.add(editor.bind("rounded", new ToggleAction(mxConstants.STYLE_ROUNDED)));
 
-		menu.add(editor.bind(mxResources.get("style"), new StyleAction()));
+		menu.add(editor.bind("style", new StyleAction()));
 	}
 
 	/**

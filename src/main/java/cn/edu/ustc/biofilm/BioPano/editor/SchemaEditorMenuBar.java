@@ -58,75 +58,75 @@ public class SchemaEditorMenuBar extends JMenuBar
 		JMenu submenu = null;
 
 		// Creates the file menu
-		menu = add(new JMenu(mxResources.get("file")));
+		menu = add(new JMenu("file"));
 
-		menu.add(editor.bind(mxResources.get("new"), new NewAction(),
+		menu.add(editor.bind("new", new NewAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/new.gif"));
-		menu.add(editor.bind(mxResources.get("openFile"), new OpenAction(),
+		menu.add(editor.bind("openFile", new OpenAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/open.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("save"), new SaveAction(false),
+		menu.add(editor.bind("save", new SaveAction(false),
 				"/cn/edu/ustc/biofilm/BioPano/images/save.gif"));
-		menu.add(editor.bind(mxResources.get("saveAs"), new SaveAction(true),
+		menu.add(editor.bind("saveAs", new SaveAction(true),
 				"/cn/edu/ustc/biofilm/BioPano/images/saveas.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("pageSetup"),
+		menu.add(editor.bind("pageSetup",
 				new PageSetupAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/pagesetup.gif"));
-		menu.add(editor.bind(mxResources.get("print"), new PrintAction(),
+		menu.add(editor.bind("print", new PrintAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/print.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("exit"), new ExitAction()));
+		menu.add(editor.bind("exit", new ExitAction()));
 
 		// Creates the edit menu
-		menu = add(new JMenu(mxResources.get("edit")));
+		menu = add(new JMenu("edit"));
 
-		menu.add(editor.bind(mxResources.get("undo"), new HistoryAction(true),
+		menu.add(editor.bind("undo", new HistoryAction(true),
 				"/cn/edu/ustc/biofilm/BioPano/images/undo.gif"));
-		menu.add(editor.bind(mxResources.get("redo"), new HistoryAction(false),
+		menu.add(editor.bind("redo", new HistoryAction(false),
 				"/cn/edu/ustc/biofilm/BioPano/images/redo.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("cut"), TransferHandler
+		menu.add(editor.bind("cut", TransferHandler
 				.getCutAction(), "/cn/edu/ustc/biofilm/BioPano/images/cut.gif"));
 		menu.add(editor
-				.bind(mxResources.get("copy"), TransferHandler.getCopyAction(),
+				.bind("copy", TransferHandler.getCopyAction(),
 						"/cn/edu/ustc/biofilm/BioPano/images/copy.gif"));
-		menu.add(editor.bind(mxResources.get("paste"), TransferHandler
+		menu.add(editor.bind("paste", TransferHandler
 				.getPasteAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/paste.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("delete"), mxGraphActions
+		menu.add(editor.bind("delete", mxGraphActions
 				.getDeleteAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/delete.gif"));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("selectAll"), mxGraphActions
+		menu.add(editor.bind("selectAll", mxGraphActions
 				.getSelectAllAction()));
-		menu.add(editor.bind(mxResources.get("selectNone"), mxGraphActions
+		menu.add(editor.bind("selectNone", mxGraphActions
 				.getSelectNoneAction()));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("warning"), new WarningAction()));
-		menu.add(editor.bind(mxResources.get("edit"), mxGraphActions
+		menu.add(editor.bind("warning", new WarningAction()));
+		menu.add(editor.bind("edit", mxGraphActions
 				.getEditAction()));
 
 		// Creates the view menu
-		menu = add(new JMenu(mxResources.get("view")));
+		menu = add(new JMenu("view"));
 
 		JMenuItem item = menu.add(new TogglePropertyItem(graphComponent,
-				mxResources.get("pageLayout"), "PageVisible", true,
+				"pageLayout", "PageVisible", true,
 				new ActionListener()
 				{
 					/**
@@ -194,12 +194,12 @@ public class SchemaEditorMenuBar extends JMenuBar
 
 		menu.addSeparator();
 
-		menu.add(new ToggleGridItem(editor, mxResources.get("grid")));
-		menu.add(new ToggleRulersItem(editor, mxResources.get("rulers")));
+		menu.add(new ToggleGridItem(editor, "grid"));
+		menu.add(new ToggleRulersItem(editor, "rulers"));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("zoom")));
+		submenu = (JMenu) menu.add(new JMenu("zoom"));
 
 		submenu.add(editor.bind("400%", new ScaleAction(4)));
 		submenu.add(editor.bind("200%", new ScaleAction(2)));
@@ -210,67 +210,67 @@ public class SchemaEditorMenuBar extends JMenuBar
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("custom"), new ScaleAction(0)));
+		submenu.add(editor.bind("custom", new ScaleAction(0)));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("zoomIn"), mxGraphActions
+		menu.add(editor.bind("zoomIn", mxGraphActions
 				.getZoomInAction()));
-		menu.add(editor.bind(mxResources.get("zoomOut"), mxGraphActions
+		menu.add(editor.bind("zoomOut", mxGraphActions
 				.getZoomOutAction()));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("page"), new ZoomPolicyAction(
+		menu.add(editor.bind("page", new ZoomPolicyAction(
 				mxGraphComponent.ZOOM_POLICY_PAGE)));
-		menu.add(editor.bind(mxResources.get("width"), new ZoomPolicyAction(
+		menu.add(editor.bind("width", new ZoomPolicyAction(
 				mxGraphComponent.ZOOM_POLICY_WIDTH)));
 
 		menu.addSeparator();
 
-		menu.add(editor.bind(mxResources.get("actualSize"), mxGraphActions
+		menu.add(editor.bind("actualSize", mxGraphActions
 				.getZoomActualAction()));
 
 		// Creates the diagram menu
-		menu = add(new JMenu(mxResources.get("diagram")));
+		menu = add(new JMenu("diagram"));
 
-		menu.add(new ToggleOutlineItem(editor, mxResources.get("outline")));
+		menu.add(new ToggleOutlineItem(editor, "outline"));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("background")));
+		submenu = (JMenu) menu.add(new JMenu("background"));
 
-		submenu.add(editor.bind(mxResources.get("backgroundColor"),
+		submenu.add(editor.bind("backgroundColor",
 				new BackgroundAction()));
-		submenu.add(editor.bind(mxResources.get("backgroundImage"),
+		submenu.add(editor.bind("backgroundImage",
 				new BackgroundImageAction()));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("pageBackground"),
+		submenu.add(editor.bind("pageBackground",
 				new PageBackgroundAction()));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("grid")));
+		submenu = (JMenu) menu.add(new JMenu("grid"));
 
-		submenu.add(editor.bind(mxResources.get("gridSize"),
+		submenu.add(editor.bind("gridSize",
 				new PromptPropertyAction(graph, "Grid Size", "GridSize")));
-		submenu.add(editor.bind(mxResources.get("gridColor"),
+		submenu.add(editor.bind("gridColor",
 				new GridColorAction()));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("dashed"), new GridStyleAction(
+		submenu.add(editor.bind("dashed", new GridStyleAction(
 				mxGraphComponent.GRID_STYLE_DASHED)));
-		submenu.add(editor.bind(mxResources.get("dot"), new GridStyleAction(
+		submenu.add(editor.bind("dot", new GridStyleAction(
 				mxGraphComponent.GRID_STYLE_DOT)));
-		submenu.add(editor.bind(mxResources.get("line"), new GridStyleAction(
+		submenu.add(editor.bind("line", new GridStyleAction(
 				mxGraphComponent.GRID_STYLE_LINE)));
-		submenu.add(editor.bind(mxResources.get("cross"), new GridStyleAction(
+		submenu.add(editor.bind("cross", new GridStyleAction(
 				mxGraphComponent.GRID_STYLE_CROSS)));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("layout")));
+		submenu = (JMenu) menu.add(new JMenu("layout"));
 
 		submenu.add(editor.graphLayout("verticalHierarchical", true));
 		submenu.add(editor.graphLayout("horizontalHierarchical", true));
@@ -298,44 +298,44 @@ public class SchemaEditorMenuBar extends JMenuBar
 
 		submenu.add(editor.graphLayout("organicLayout", true));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("selection")));
+		submenu = (JMenu) menu.add(new JMenu("selection"));
 
-		submenu.add(editor.bind(mxResources.get("selectPath"),
+		submenu.add(editor.bind("selectPath",
 				new SelectShortestPathAction(false)));
-		submenu.add(editor.bind(mxResources.get("selectDirectedPath"),
+		submenu.add(editor.bind("selectDirectedPath",
 				new SelectShortestPathAction(true)));
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("selectTree"),
+		submenu.add(editor.bind("selectTree",
 				new SelectSpanningTreeAction(false)));
-		submenu.add(editor.bind(mxResources.get("selectDirectedTree"),
+		submenu.add(editor.bind("selectDirectedTree",
 				new SelectSpanningTreeAction(true)));
 
 		menu.addSeparator();
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("stylesheet")));
+		submenu = (JMenu) menu.add(new JMenu("stylesheet"));
 
 		submenu
 				.add(editor
 						.bind(
-								mxResources.get("basicStyle"),
+								"basicStyle",
 								new StylesheetAction(
 										"/cn/edu/ustc/biofilm/BioPano/resources/basic-style.xml")));
 		submenu
 				.add(editor
 						.bind(
-								mxResources.get("defaultStyle"),
+								"defaultStyle",
 								new StylesheetAction(
 										"/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml")));
 
 		// Creates the options menu
-		menu = add(new JMenu(mxResources.get("options")));
+		menu = add(new JMenu("options"));
 
-		submenu = (JMenu) menu.add(new JMenu(mxResources.get("display")));
+		submenu = (JMenu) menu.add(new JMenu("display"));
 		submenu.add(new TogglePropertyItem(graphComponent, mxResources
 				.get("buffering"), "TripleBuffered", true));
-		submenu.add(editor.bind(mxResources.get("dirty"),
+		submenu.add(editor.bind("dirty",
 				new ToggleDirtyAction()));
 
 		submenu.addSeparator();
@@ -372,11 +372,11 @@ public class SchemaEditorMenuBar extends JMenuBar
 
 		submenu.addSeparator();
 
-		submenu.add(editor.bind(mxResources.get("tolerance"),
+		submenu.add(editor.bind("tolerance",
 				new PromptPropertyAction(graph, "Tolerance")));
 
 		// Creates the window menu
-		menu = add(new JMenu(mxResources.get("window")));
+		menu = add(new JMenu("window"));
 
 		UIManager.LookAndFeelInfo[] lafs = UIManager.getInstalledLookAndFeels();
 
@@ -393,9 +393,9 @@ public class SchemaEditorMenuBar extends JMenuBar
 		}
 
 		// Creates the help menu
-		menu = add(new JMenu(mxResources.get("help")));
+		menu = add(new JMenu("help"));
 
-		item = menu.add(new JMenuItem(mxResources.get("aboutGraphEditor")));
+		item = menu.add(new JMenuItem("aboutGraphEditor"));
 		item.addActionListener(new ActionListener()
 		{
 			/*

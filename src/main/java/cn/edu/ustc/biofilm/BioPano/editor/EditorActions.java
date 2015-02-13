@@ -381,7 +381,7 @@ public class EditorActions
 				mxGraphComponent graphComponent = (mxGraphComponent) e
 						.getSource();
 				Color newColor = JColorChooser.showDialog(graphComponent,
-						mxResources.get("gridColor"),
+						"gridColor",
 						graphComponent.getGridColor());
 
 				if (newColor != null)
@@ -426,8 +426,8 @@ public class EditorActions
 				if (scale == 0)
 				{
 					String value = (String) JOptionPane.showInputDialog(
-							graphComponent, mxResources.get("value"),
-							mxResources.get("scale") + " (%)",
+							graphComponent, "value",
+							"scale" + " (%)",
 							JOptionPane.PLAIN_MESSAGE, null, null, "");
 
 					if (value != null)
@@ -576,7 +576,7 @@ public class EditorActions
 				else
 				{
 					JOptionPane.showMessageDialog(graphComponent,
-							mxResources.get("noImageData"));
+							"noImageData");
 				}
 			}
 			finally
@@ -598,9 +598,9 @@ public class EditorActions
 				mxGraph graph = graphComponent.getGraph();
 				FileFilter selectedFilter = null;
 				DefaultFileFilter xmlPngFilter = new DefaultFileFilter(".png",
-						"PNG+XML " + mxResources.get("file") + " (.png)");
+						"PNG+XML " + "file" + " (.png)");
 				FileFilter vmlFileFilter = new DefaultFileFilter(".html",
-						"VML " + mxResources.get("file") + " (.html)");
+						"VML " + "file" + " (.html)");
 				String filename = null;
 				boolean dialogShown = false;
 
@@ -629,16 +629,16 @@ public class EditorActions
 
 					// Adds special vector graphics formats and HTML
 					fc.addChoosableFileFilter(new DefaultFileFilter(".mxe",
-							"mxGraph Editor " + mxResources.get("file")
+							"mxGraph Editor " + "file"
 									+ " (.mxe)"));
 					fc.addChoosableFileFilter(new DefaultFileFilter(".txt",
-							"Graph Drawing " + mxResources.get("file")
+							"Graph Drawing " + "file"
 									+ " (.txt)"));
 					fc.addChoosableFileFilter(new DefaultFileFilter(".svg",
-							"SVG " + mxResources.get("file") + " (.svg)"));
+							"SVG " + "file" + " (.svg)"));
 					fc.addChoosableFileFilter(vmlFileFilter);
 					fc.addChoosableFileFilter(new DefaultFileFilter(".html",
-							"HTML " + mxResources.get("file") + " (.html)"));
+							"HTML " + "file" + " (.html)"));
 
 					// Adds a filter for each supported image format
 					Object[] imageFormats = ImageIO.getReaderFormatNames();
@@ -659,14 +659,14 @@ public class EditorActions
 						String ext = imageFormats[i].toString();
 						fc.addChoosableFileFilter(new DefaultFileFilter("."
 								+ ext, ext.toUpperCase() + " "
-								+ mxResources.get("file") + " (." + ext + ")"));
+								+ "file" + " (." + ext + ")"));
 					}
 
 					// Adds filter that accepts all supported image formats
 					fc.addChoosableFileFilter(new DefaultFileFilter.ImageFileFilter(
-							mxResources.get("allImages")));
+							"allImages"));
 					fc.setFileFilter(defaultFilter);
-					int rc = fc.showDialog(null, mxResources.get("save"));
+					int rc = fc.showDialog(null, "save");
 					dialogShown = true;
 
 					if (rc != JFileChooser.APPROVE_OPTION)
@@ -694,7 +694,7 @@ public class EditorActions
 
 					if (new File(filename).exists()
 							&& JOptionPane.showConfirmDialog(graphComponent,
-									mxResources.get("overwriteExistingFile")) != JOptionPane.YES_OPTION)
+									"overwriteExistingfile") != JOptionPane.YES_OPTION)
 					{
 						return;
 					}
@@ -794,7 +794,7 @@ public class EditorActions
 							else
 							{
 								JOptionPane.showMessageDialog(graphComponent,
-										mxResources.get("noImageData"));
+										"noImageData");
 							}
 						}
 					}
@@ -803,7 +803,7 @@ public class EditorActions
 				{
 					ex.printStackTrace();
 					JOptionPane.showMessageDialog(graphComponent,
-							ex.toString(), mxResources.get("error"),
+							ex.toString(), "error",
 							JOptionPane.ERROR_MESSAGE);
 				}
 			}
@@ -878,7 +878,7 @@ public class EditorActions
 				else
 				{
 					JOptionPane.showMessageDialog(graphComponent,
-							mxResources.get("noSourceAndTargetSelected"));
+							"noSourceAndTargetSelected");
 				}
 			}
 		}
@@ -1408,7 +1408,7 @@ public class EditorActions
 				else
 				{
 					JOptionPane.showMessageDialog(graphComponent,
-							mxResources.get("noCellSelected"));
+							"noCellSelected");
 				}
 			}
 		}
@@ -1431,7 +1431,7 @@ public class EditorActions
 			{
 				if (!editor.isModified()
 						|| JOptionPane.showConfirmDialog(editor,
-								mxResources.get("loseChanges")) == JOptionPane.YES_OPTION)
+								"loseChanges") == JOptionPane.YES_OPTION)
 				{
 					mxGraph graph = editor.getGraphComponent().getGraph();
 
@@ -1514,9 +1514,9 @@ public class EditorActions
 
 				// Adds file filter for Dia shape import
 				fc.addChoosableFileFilter(new DefaultFileFilter(".shape",
-						"Dia Shape " + mxResources.get("file") + " (.shape)"));
+						"Dia Shape " + "file" + " (.shape)"));
 
-				int rc = fc.showDialog(null, mxResources.get("importStencil"));
+				int rc = fc.showDialog(null, "importStencil");
 
 				if (rc == JFileChooser.APPROVE_OPTION)
 				{
@@ -1624,7 +1624,7 @@ public class EditorActions
 			}
 
 			JOptionPane.showMessageDialog(editor,
-					mxResources.get("imageContainsNoDiagramData"));
+					"imageContainsNoDiagramData");
 		}
 
 		/**
@@ -1642,7 +1642,7 @@ public class EditorActions
 
 			if (new File(filename).exists()
 					&& JOptionPane.showConfirmDialog(editor,
-							mxResources.get("overwriteExistingFile")) != JOptionPane.YES_OPTION)
+							"overwriteExistingfile") != JOptionPane.YES_OPTION)
 			{
 				return;
 			}
@@ -1664,7 +1664,7 @@ public class EditorActions
 			{
 				if (!editor.isModified()
 						|| JOptionPane.showConfirmDialog(editor,
-								mxResources.get("loseChanges")) == JOptionPane.YES_OPTION)
+								"loseChanges") == JOptionPane.YES_OPTION)
 				{
 					mxGraph graph = editor.getGraphComponent().getGraph();
 
@@ -1677,7 +1677,7 @@ public class EditorActions
 
 						// Adds file filter for supported file format
 						DefaultFileFilter defaultFilter = new DefaultFileFilter(
-								".mxe", mxResources.get("allSupportedFormats")
+								".mxe", "allSupportedFormats"
 										+ " (.mxe, .png, .vdx)")
 						{
 
@@ -1693,26 +1693,26 @@ public class EditorActions
 						fc.addChoosableFileFilter(defaultFilter);
 
 						fc.addChoosableFileFilter(new DefaultFileFilter(".mxe",
-								"mxGraph Editor " + mxResources.get("file")
+								"mxGraph Editor " + "file"
 										+ " (.mxe)"));
 						fc.addChoosableFileFilter(new DefaultFileFilter(".png",
-								"PNG+XML  " + mxResources.get("file")
+								"PNG+XML  " + "file"
 										+ " (.png)"));
 
 						// Adds file filter for VDX import
 						fc.addChoosableFileFilter(new DefaultFileFilter(".vdx",
-								"XML Drawing  " + mxResources.get("file")
+								"XML Drawing  " + "file"
 										+ " (.vdx)"));
 
 						// Adds file filter for GD import
 						fc.addChoosableFileFilter(new DefaultFileFilter(".txt",
-								"Graph Drawing  " + mxResources.get("file")
+								"Graph Drawing  " + "file"
 										+ " (.txt)"));
 
 						fc.setFileFilter(defaultFilter);
 
 						int rc = fc.showDialog(null,
-								mxResources.get("openFile"));
+								"openfile");
 
 						if (rc == JFileChooser.APPROVE_OPTION)
 						{
@@ -1756,7 +1756,7 @@ public class EditorActions
 								JOptionPane.showMessageDialog(
 										editor.getGraphComponent(),
 										ex.toString(),
-										mxResources.get("error"),
+										"error",
 										JOptionPane.ERROR_MESSAGE);
 							}
 						}
@@ -1828,7 +1828,8 @@ public class EditorActions
 
 		/**
 		 * 
-		 * @param key
+		 * @param labelPosition
+		 * @param alignment
 		 */
 		public SetLabelPositionAction(String labelPosition, String alignment)
 		{
@@ -1887,7 +1888,7 @@ public class EditorActions
 
 		/**
 		 * 
-		 * @param key
+		 * @param value
 		 */
 		public SetStyleAction(String value)
 		{
@@ -1986,7 +1987,7 @@ public class EditorActions
 				{
 					String value = (String) JOptionPane.showInputDialog(
 							(Component) e.getSource(),
-							mxResources.get("value"), message,
+							"value", message,
 							JOptionPane.PLAIN_MESSAGE, null, null, "");
 
 					if (value != null)
@@ -2016,7 +2017,7 @@ public class EditorActions
 
 		/**
 		 * 
-		 * @param key
+		 * @param align
 		 */
 		public AlignCellsAction(String align)
 		{
@@ -2133,7 +2134,7 @@ public class EditorActions
 				mxGraphComponent graphComponent = (mxGraphComponent) e
 						.getSource();
 				String value = (String) JOptionPane.showInputDialog(
-						graphComponent, mxResources.get("backgroundImage"),
+						graphComponent, "backgroundImage",
 						"URL", JOptionPane.PLAIN_MESSAGE, null, null,
 						"http://www.callatecs.com/images/background2.JPG");
 
@@ -2178,7 +2179,7 @@ public class EditorActions
 				mxGraphComponent graphComponent = (mxGraphComponent) e
 						.getSource();
 				Color newColor = JColorChooser.showDialog(graphComponent,
-						mxResources.get("background"), null);
+						"background", null);
 
 				if (newColor != null)
 				{
@@ -2208,7 +2209,7 @@ public class EditorActions
 				mxGraphComponent graphComponent = (mxGraphComponent) e
 						.getSource();
 				Color newColor = JColorChooser.showDialog(graphComponent,
-						mxResources.get("pageBackground"), null);
+						"pageBackground", null);
 
 				if (newColor != null)
 				{
@@ -2240,8 +2241,8 @@ public class EditorActions
 				String initial = graph.getModel().getStyle(
 						graph.getSelectionCell());
 				String value = (String) JOptionPane.showInputDialog(
-						graphComponent, mxResources.get("style"),
-						mxResources.get("style"), JOptionPane.PLAIN_MESSAGE,
+						graphComponent, "style",
+						"style", JOptionPane.PLAIN_MESSAGE,
 						null, null, initial);
 
 				if (value != null)

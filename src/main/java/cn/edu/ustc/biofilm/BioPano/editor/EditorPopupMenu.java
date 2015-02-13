@@ -21,29 +21,29 @@ public class EditorPopupMenu extends JPopupMenu
 		boolean selected = !editor.getGraphComponent().getGraph()
 				.isSelectionEmpty();
 
-		add(editor.bind(mxResources.get("undo"), new HistoryAction(true),
+		add(editor.bind("undo", new HistoryAction(true),
 				"/cn/edu/ustc/biofilm/BioPano/images/undo.gif"));
 
 		addSeparator();
 
 		add(
-				editor.bind(mxResources.get("cut"), TransferHandler
+				editor.bind("cut", TransferHandler
 						.getCutAction(),
 						"/cn/edu/ustc/biofilm/BioPano/images/cut.gif"))
 				.setEnabled(selected);
 		add(
-				editor.bind(mxResources.get("copy"), TransferHandler
+				editor.bind("copy", TransferHandler
 						.getCopyAction(),
 						"/cn/edu/ustc/biofilm/BioPano/images/copy.gif"))
 				.setEnabled(selected);
-		add(editor.bind(mxResources.get("paste"), TransferHandler
+		add(editor.bind("paste", TransferHandler
 				.getPasteAction(),
 				"/cn/edu/ustc/biofilm/BioPano/images/paste.gif"));
 
 		addSeparator();
 
 		add(
-				editor.bind(mxResources.get("delete"), mxGraphActions
+				editor.bind("delete", mxGraphActions
 						.getDeleteAction(),
 						"/cn/edu/ustc/biofilm/BioPano/images/delete.gif"))
 				.setEnabled(selected);
@@ -51,31 +51,31 @@ public class EditorPopupMenu extends JPopupMenu
 		addSeparator();
 
 		// Creates the format menu
-		JMenu menu = (JMenu) add(new JMenu(mxResources.get("format")));
+		JMenu menu = (JMenu) add(new JMenu("format"));
 
 		EditorMenuBar.populateFormatMenu(menu, editor);
 
 		// Creates the shape menu
-		menu = (JMenu) add(new JMenu(mxResources.get("shape")));
+		menu = (JMenu) add(new JMenu("shape"));
 
 		EditorMenuBar.populateShapeMenu(menu, editor);
 
 		addSeparator();
 
 		add(
-				editor.bind(mxResources.get("edit"), mxGraphActions
+				editor.bind("edit", mxGraphActions
 						.getEditAction())).setEnabled(selected);
 
 		addSeparator();
 
-		add(editor.bind(mxResources.get("selectVertices"), mxGraphActions
+		add(editor.bind("selectVertices", mxGraphActions
 				.getSelectVerticesAction()));
-		add(editor.bind(mxResources.get("selectEdges"), mxGraphActions
+		add(editor.bind("selectEdges", mxGraphActions
 				.getSelectEdgesAction()));
 
 		addSeparator();
 
-		add(editor.bind(mxResources.get("selectAll"), mxGraphActions
+		add(editor.bind("selectAll", mxGraphActions
 				.getSelectAllAction()));
 	}
 

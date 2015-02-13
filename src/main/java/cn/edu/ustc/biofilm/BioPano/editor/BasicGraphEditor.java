@@ -263,7 +263,7 @@ public class BasicGraphEditor extends JPanel
 	 */
 	protected JLabel createStatusBar()
 	{
-		JLabel statusBar = new JLabel(mxResources.get("ready"));
+		JLabel statusBar = new JLabel("ready");
 		statusBar.setBorder(BorderFactory.createEmptyBorder(2, 4, 2, 4));
 
 		return statusBar;
@@ -344,7 +344,7 @@ public class BasicGraphEditor extends JPanel
 			graphComponent.zoomOut();
 		}
 
-		status(mxResources.get("scale") + ": "
+		status("scale" + ": "
 				+ (int) (100 * graphComponent.getGraph().getView().getScale())
 				+ "%");
 	}
@@ -357,7 +357,7 @@ public class BasicGraphEditor extends JPanel
 		Point pt = SwingUtilities.convertPoint(e.getComponent(), e.getPoint(),
 				graphComponent);
 		JCheckBoxMenuItem item = new JCheckBoxMenuItem(
-				mxResources.get("magnifyPage"));
+				"magnifyPage");
 		item.setSelected(graphOutline.isFitPage());
 
 		item.addActionListener(new ActionListener()
@@ -373,7 +373,7 @@ public class BasicGraphEditor extends JPanel
 		});
 
 		JCheckBoxMenuItem item2 = new JCheckBoxMenuItem(
-				mxResources.get("showLabels"));
+				"showLabels");
 		item2.setSelected(graphOutline.isDrawLabels());
 
 		item2.addActionListener(new ActionListener()
@@ -389,7 +389,7 @@ public class BasicGraphEditor extends JPanel
 		});
 
 		JCheckBoxMenuItem item3 = new JCheckBoxMenuItem(
-				mxResources.get("buffering"));
+				"buffering");
 		item3.setSelected(graphOutline.isTripleBuffered());
 
 		item3.addActionListener(new ActionListener()
@@ -674,7 +674,7 @@ public class BasicGraphEditor extends JPanel
 		if (frame != null)
 		{
 			String title = (currentFile != null) ? currentFile
-					.getAbsolutePath() : mxResources.get("newDiagram");
+					.getAbsolutePath() : "newDiagram";
 
 			if (modified)
 			{
@@ -753,7 +753,7 @@ public class BasicGraphEditor extends JPanel
 		frame.getContentPane().add(this);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setJMenuBar(menuBar);
-		frame.setSize(870, 640);
+		frame.setSize(1280, 768);
 
 		// Updates the frame title
 		updateTitle();
@@ -775,7 +775,7 @@ public class BasicGraphEditor extends JPanel
 
 		if (layout != null)
 		{
-			return new AbstractAction(mxResources.get(key))
+			return new AbstractAction(key)
 			{
 				public void actionPerformed(ActionEvent e)
 				{
@@ -820,13 +820,13 @@ public class BasicGraphEditor extends JPanel
 		}
 		else
 		{
-			return new AbstractAction(mxResources.get(key))
+			return new AbstractAction(key)
 			{
 
 				public void actionPerformed(ActionEvent e)
 				{
 					JOptionPane.showMessageDialog(graphComponent,
-							mxResources.get("noLayout"));
+							"noLayout");
 				}
 
 			};

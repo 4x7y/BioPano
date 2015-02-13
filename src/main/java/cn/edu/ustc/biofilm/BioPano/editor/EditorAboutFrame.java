@@ -39,7 +39,7 @@ public class EditorAboutFrame extends JDialog
 	public EditorAboutFrame(Frame owner)
 	{
 		super(owner);
-		setTitle(mxResources.get("aboutGraphEditor"));
+		setTitle("aboutGraphEditor");
 		setLayout(new BorderLayout());
 
 		// Creates the gradient panel
@@ -72,7 +72,7 @@ public class EditorAboutFrame extends JDialog
 				.createEmptyBorder(8, 8, 12, 8)));
 
 		// Adds title
-		JLabel titleLabel = new JLabel(mxResources.get("aboutGraphEditor"));
+		JLabel titleLabel = new JLabel("aboutGraphEditor");
 		titleLabel.setFont(titleLabel.getFont().deriveFont(Font.BOLD));
 		titleLabel.setBorder(BorderFactory.createEmptyBorder(4, 0, 0, 0));
 		titleLabel.setOpaque(false);

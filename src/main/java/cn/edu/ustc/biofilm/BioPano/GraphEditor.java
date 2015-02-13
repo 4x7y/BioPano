@@ -72,9 +72,9 @@ public class GraphEditor extends BasicGraphEditor
 		final mxGraph graph = graphComponent.getGraph();
 
 		// Creates the shapes palette
-		EditorPalette shapesPalette = insertPalette(mxResources.get("shapes"));
-		EditorPalette imagesPalette = insertPalette(mxResources.get("images"));
-		EditorPalette symbolsPalette = insertPalette(mxResources.get("symbols"));
+		EditorPalette shapesPalette = insertPalette("shapes");
+		EditorPalette imagesPalette = insertPalette("images");
+		EditorPalette symbolsPalette = insertPalette("symbols");
 
 		// Sets the edge template to be used for creating new edges if an edge
 		// is clicked in the shape palette
