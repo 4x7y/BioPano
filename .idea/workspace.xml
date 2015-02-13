@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6f34057-a3e9-4eef-a1fe-26f897eea8d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/yuechuan.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/yuechuan.xml" />
     </list>
     <ignored path="BioPano.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicGraphEditor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicGraphEditor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.708402" vertical-offset="8858" max-vertical-offset="12870">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3615" max-vertical-offset="12870">
               <caret line="449" column="48" selection-start-line="449" selection-start-column="20" selection-end-line="449" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,17 +130,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchToolBar.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchToolBar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2250">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state vertical-scroll-proportion="1.113744" vertical-offset="0" max-vertical-offset="4815">
+              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3402#3403#0" expanded="true" />
-                <element signature="e#3434#3435#0" expanded="true" />
-                <element signature="e#3462#3463#0" expanded="true" />
-                <element signature="e#3494#3495#0" expanded="true" />
+                <element signature="e#1774#1775#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
+                <element signature="e#1877#1878#0" expanded="true" />
+                <element signature="e#1926#1927#0" expanded="true" />
+                <element signature="e#3034#3035#0" expanded="true" />
+                <element signature="e#3064#3065#0" expanded="true" />
+                <element signature="e#3107#3108#0" expanded="true" />
+                <element signature="e#3137#3138#0" expanded="true" />
+                <element signature="e#3821#3822#0" expanded="true" />
+                <element signature="e#3853#3854#0" expanded="true" />
+                <element signature="e#3881#3882#0" expanded="true" />
+                <element signature="e#3913#3914#0" expanded="true" />
+                <element signature="e#4780#4800#0" expanded="true" />
+                <element signature="e#7997#7998#0" expanded="true" />
+                <element signature="e#8029#8030#0" expanded="true" />
+                <element signature="e#8293#8294#0" expanded="true" />
+                <element signature="e#8357#8358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -331,8 +344,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorPalette.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorAboutFrame.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" />
       </list>
     </option>
   </component>
@@ -929,12 +942,12 @@
       <workItem from="1423758822193" duration="8284000" />
       <workItem from="1423829604305" duration="3124000" />
       <workItem from="1423838921918" duration="1067000" />
-      <workItem from="1423847819424" duration="4641000" />
+      <workItem from="1423847819424" duration="5984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21776000" />
+    <option name="totallyTimeSpent" value="23119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1641,20 +1654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2250">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3402#3403#0" expanded="true" />
-            <element signature="e#3434#3435#0" expanded="true" />
-            <element signature="e#3462#3463#0" expanded="true" />
-            <element signature="e#3494#3495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jgraphx.jar!/com/mxgraph/swing/mxGraphOutline.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="7170">
@@ -1665,7 +1664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.708402" vertical-offset="8858" max-vertical-offset="12870">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3615" max-vertical-offset="12870">
           <caret line="449" column="48" selection-start-line="449" selection-start-column="20" selection-end-line="449" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1675,6 +1674,33 @@
             <element signature="e#9667#9668#0" expanded="true" />
             <element signature="e#13426#13453#0" expanded="true" />
             <element signature="e#16084#16111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.113744" vertical-offset="0" max-vertical-offset="4815">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#3034#3035#0" expanded="true" />
+            <element signature="e#3064#3065#0" expanded="true" />
+            <element signature="e#3107#3108#0" expanded="true" />
+            <element signature="e#3137#3138#0" expanded="true" />
+            <element signature="e#3821#3822#0" expanded="true" />
+            <element signature="e#3853#3854#0" expanded="true" />
+            <element signature="e#3881#3882#0" expanded="true" />
+            <element signature="e#3913#3914#0" expanded="true" />
+            <element signature="e#4780#4800#0" expanded="true" />
+            <element signature="e#7997#7998#0" expanded="true" />
+            <element signature="e#8029#8030#0" expanded="true" />
+            <element signature="e#8293#8294#0" expanded="true" />
+            <element signature="e#8357#8358#0" expanded="true" />
           </folding>
         </state>
       </provider>
