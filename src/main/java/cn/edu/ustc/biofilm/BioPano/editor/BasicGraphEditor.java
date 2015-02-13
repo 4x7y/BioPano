@@ -190,17 +190,17 @@ public class BasicGraphEditor extends JPanel
 		undoManager.addListener(mxEvent.UNDO, undoHandler);
 		undoManager.addListener(mxEvent.REDO, undoHandler);
 
-		// Creates the graph outline component
+		// Creates the graph outline component(缩略图 左下)
 		graphOutline = new mxGraphOutline(graphComponent);
 
-		// Creates the library pane that contains the tabs with the palettes
+		// Creates the library pane that contains the tabs with the palettes(图案库 左上)
 		libraryPane = new JTabbedPane();
 
 		// Creates the inner split pane that contains the library with the
 		// palettes and the graph outline on the left side of the window
 		JSplitPane inner = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
 				libraryPane, graphOutline);
-		inner.setDividerLocation(320);
+		inner.setDividerLocation(400);
 		inner.setResizeWeight(1);
 		inner.setDividerSize(6);
 		inner.setBorder(null);
@@ -210,9 +210,15 @@ public class BasicGraphEditor extends JPanel
 		JSplitPane outer = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, inner,
 				graphComponent);
 		outer.setOneTouchExpandable(true);
-		outer.setDividerLocation(200);
+		outer.setDividerLocation(250);
 		outer.setDividerSize(6);
 		outer.setBorder(null);
+
+		JSplitPane outsider = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, outer, new JPanel());
+		outsider.setOneTouchExpandable(true);
+		outsider.setDividerLocation(1000);
+		outsider.setDividerSize(6);
+		outsider.setBorder(null);
 
 		// Creates the status bar
 		statusBar = createStatusBar();
@@ -222,7 +228,11 @@ public class BasicGraphEditor extends JPanel
 
 		// Puts everything together
 		setLayout(new BorderLayout());
-		add(outer, BorderLayout.CENTER);
+
+		//add(outer, BorderLayout.CENTER);
+		add(outsider, BorderLayout.CENTER);
+
+
 		add(statusBar, BorderLayout.SOUTH);
 		installToolBar();
 
