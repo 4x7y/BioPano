@@ -465,9 +465,9 @@ public class GraphEditor extends BasicGraphEditor
 
 			// Loads the defalt stylesheet from an external file
 			mxCodec codec = new mxCodec();
-			Document doc = mxUtils.loadDocument(GraphEditor.class.getResource(
-					"/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml").toString());
-			codec.decode(doc.getDocumentElement(), graph.getStylesheet());
+			//Document doc = mxUtils.loadDocument(GraphEditor.class.getResource(
+			//		"/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml").toString());
+			//codec.decode(doc.getDocumentElement(), graph.getStylesheet());
 
 			// Sets the background to white
 			getViewport().setOpaque(true);
