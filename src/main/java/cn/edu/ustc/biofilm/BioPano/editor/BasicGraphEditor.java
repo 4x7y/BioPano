@@ -14,23 +14,7 @@ import java.awt.event.MouseWheelListener;
 import java.io.File;
 import java.util.List;
 
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JMenuBar;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.JTabbedPane;
-import javax.swing.JToolBar;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
+import javax.swing.*;
 
 import com.mxgraph.layout.mxCircleLayout;
 import com.mxgraph.layout.mxCompactTreeLayout;
@@ -214,11 +198,29 @@ public class BasicGraphEditor extends JPanel
 		outer.setDividerSize(6);
 		outer.setBorder(null);
 
-		JSplitPane outsider = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, outer, new JPanel());
+
+		SearchToolBar searchPane = new SearchToolBar();
+		/*
+		DefaultComboBoxModel defaultComboBoxModel=new DefaultComboBoxModel();
+		defaultComboBoxModel.addElement("aa");
+		defaultComboBoxModel.addElement("bb");
+		defaultComboBoxModel.addElement("cc");
+		JComboBox jComboBox = new JComboBox();
+		jComboBox.setModel(defaultComboBoxModel);
+		searchPane.add(jComboBox);
+		*/
+
+
+		JSplitPane outsider = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, outer, searchPane);
 		outsider.setOneTouchExpandable(true);
 		outsider.setDividerLocation(1000);
 		outsider.setDividerSize(6);
 		outsider.setBorder(null);
+
+
+
+
+
 
 		// Creates the status bar
 		statusBar = createStatusBar();
