@@ -46,6 +46,28 @@ public class SearchToolBar extends JPanel {
         add(panelContactor, BorderLayout.CENTER);
         panelContactor.addContact("Operon");
         panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+        panelContactor.addContact("Operon");
+        panelContactor.addContact("Gene");
+
+
 
     }
 
@@ -182,7 +204,7 @@ class ContactList extends JScrollPane {
         this.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         this.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         jpb.setPreferredSize(new Dimension(190,dimensionY));
-        jpb.setLayout(new GridLayout(12, 1));
+        jpb.setLayout(new GridLayout(16, 1));
         jpb.revalidate();
     }
 
@@ -220,7 +242,7 @@ class ContactList extends JScrollPane {
         if(contactnum<=10) {
             dimensionY = 400;
             jpb.setPreferredSize(new Dimension(190,dimensionY));
-            jpb.setLayout(new GridLayout(12, 1));
+            jpb.setLayout(new GridLayout(16, 1));
 
         }
         jpb.repaint();
@@ -241,7 +263,7 @@ class ContactCard extends JPanel implements MouseListener{
     private final Color c1 = new Color(175,200,244);
     private final Color c2 = new Color(110,135,180);
     private final Color c3 = new Color(223,223,223);
-    private final Color c4 = new Color(180,180,180);
+    private final Color c4 = new Color(210,210,210);
     private Color cUp = null;
     private Color cDown = null;
 
@@ -259,7 +281,7 @@ class ContactCard extends JPanel implements MouseListener{
 
         label = new JLabel();
 
-        ImageIcon icon = new ImageIcon("/Users/mac/Desktop/Infinite/Client/u2.png");
+        ImageIcon icon = new ImageIcon(getClass().getResource("/cn/edu/ustc/biofilm/BioPano/images/actor.png"));
         icon.setImage(icon.getImage().getScaledInstance(30,30,Image.SCALE_DEFAULT));
         label.setIcon(icon);
         label.setBounds(6, 5, 33, 33);

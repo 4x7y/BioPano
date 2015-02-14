@@ -247,7 +247,7 @@ public class EditorMenuBar extends JMenuBar
 		populateShapeMenu(menu, editor);
 
 		// Creates the diagram menu
-		menu = add(new JMenu("diagram"));
+		menu = add(new JMenu("Diagram"));
 
 		menu.add(new ToggleOutlineItem(editor, "outline"));
 
@@ -326,7 +326,7 @@ public class EditorMenuBar extends JMenuBar
 				"/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml")));
 
 		// Creates the options menu
-		menu = add(new JMenu("options"));
+		menu = add(new JMenu("Options"));
 
 		submenu = (JMenu) menu.add(new JMenu("display"));
 		submenu.add(new TogglePropertyItem(graphComponent, "buffering", "TripleBuffered", true));
@@ -500,9 +500,9 @@ public class EditorMenuBar extends JMenuBar
 		menu.add(editor.bind("Is biconnected", new AnalyzeGraph(AnalyzeType.IS_BICONNECTED, aGraph)));
 
 		// Creates the help menu
-		menu = add(new JMenu("help"));
+		menu = add(new JMenu("elp"));
 
-		item = menu.add(new JMenuItem("aboutGraphEditor"));
+		item = menu.add(new JMenuItem("About BioPano"));
 		item.addActionListener(new ActionListener()
 		{
 			/*
