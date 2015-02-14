@@ -6,6 +6,7 @@ import java.io.File;
 import java.util.List;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 
 import com.mxgraph.layout.mxCircleLayout;
 import com.mxgraph.layout.mxCompactTreeLayout;
@@ -194,10 +195,12 @@ public class BasicGraphEditor extends JPanel
 		outer.setDividerSize(6);
 		outer.setBorder(null);
 
-
+		/*
 		searchPane = new SearchToolBar();
 		searchPane.setBackground(Color.CYAN);
 		searchPane.setPreferredSize(new Dimension(250,0));
+		*/
+
 		/*
 		JSplitPane outsider = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, outer, searchPane);
 		outsider.setOneTouchExpandable(true);
@@ -217,7 +220,7 @@ public class BasicGraphEditor extends JPanel
 		setLayout(new BorderLayout());
 
 		add(outer, BorderLayout.CENTER);
-		add(searchPane, BorderLayout.EAST);
+		//add(searchPane, BorderLayout.EAST);
 
 
 		add(statusBar, BorderLayout.SOUTH);
@@ -252,7 +255,21 @@ public class BasicGraphEditor extends JPanel
 	 */
 	protected void installToolBar()
 	{
-		add(new EditorToolBar(this, JToolBar.HORIZONTAL), BorderLayout.NORTH);
+		final JPanel toolPanel = new JPanel();
+		Border line = BorderFactory.createLineBorder(Color.lightGray);
+		toolPanel.setBorder(line);
+
+		toolPanel.setLayout(new BorderLayout());
+		toolPanel.add(new EditorToolBar(this, toolPanel, JToolBar.HORIZONTAL), BorderLayout.WEST);
+
+		SearchToolBar searchTool = new SearchToolBar();
+		searchTool.setPreferredSize(new Dimension(250,30));
+		toolPanel.add(searchTool, BorderLayout.EAST);
+
+		//JPanel occupyPanel = new JPanel();
+		//toolPanel.add(occupyPanel, BorderLayout.CENTER);
+
+		add(toolPanel, BorderLayout.NORTH);
 	}
 
 	/**
@@ -438,6 +455,7 @@ public class BasicGraphEditor extends JPanel
 	{
 
 		//Installs key Enter listener for searching
+		/*
 		searchPane.jf.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -456,7 +474,7 @@ public class BasicGraphEditor extends JPanel
 
 			}
 		});
-
+		*/
 
 		// Installs mouse wheel listener for zooming
 		MouseWheelListener wheelTracker = new MouseWheelListener()

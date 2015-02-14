@@ -110,7 +110,7 @@ public class EditorMenuBar extends JMenuBar
 		menu.add(editor.bind("exit", new ExitAction()));
 
 		// Creates the edit menu
-		menu = add(new JMenu("edit"));
+		menu = add(new JMenu("Edit"));
 
 		menu.add(editor.bind("undo", new HistoryAction(true), "/cn/edu/ustc/biofilm/BioPano/images/undo.gif"));
 		menu.add(editor.bind("redo", new HistoryAction(false), "/cn/edu/ustc/biofilm/BioPano/images/redo.gif"));
@@ -136,7 +136,7 @@ public class EditorMenuBar extends JMenuBar
 		menu.add(editor.bind("edit", mxGraphActions.getEditAction()));
 
 		// Creates the view menu
-		menu = add(new JMenu("view"));
+		menu = add(new JMenu("View"));
 
 		JMenuItem item = menu.add(new TogglePropertyItem(graphComponent, "pageLayout", "PageVisible", true,
 				new ActionListener()
@@ -237,12 +237,12 @@ public class EditorMenuBar extends JMenuBar
 		menu.add(editor.bind("actualSize", mxGraphActions.getZoomActualAction()));
 
 		// Creates the format menu
-		menu = add(new JMenu("format"));
+		menu = add(new JMenu("Format"));
 
 		populateFormatMenu(menu, editor);
 
 		// Creates the shape menu
-		menu = add(new JMenu("shape"));
+		menu = add(new JMenu("Shape"));
 
 		populateShapeMenu(menu, editor);
 
@@ -500,7 +500,7 @@ public class EditorMenuBar extends JMenuBar
 		menu.add(editor.bind("Is biconnected", new AnalyzeGraph(AnalyzeType.IS_BICONNECTED, aGraph)));
 
 		// Creates the help menu
-		menu = add(new JMenu("elp"));
+		menu = add(new JMenu("Help"));
 
 		item = menu.add(new JMenuItem("About BioPano"));
 		item.addActionListener(new ActionListener()

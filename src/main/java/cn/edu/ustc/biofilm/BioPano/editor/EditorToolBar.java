@@ -8,11 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.swing.BorderFactory;
-import javax.swing.JComboBox;
-import javax.swing.JOptionPane;
-import javax.swing.JToolBar;
-import javax.swing.TransferHandler;
+import javax.swing.*;
 
 import cn.edu.ustc.biofilm.BioPano.editor.EditorActions.ColorAction;
 import cn.edu.ustc.biofilm.BioPano.editor.EditorActions.FontStyleAction;
@@ -32,6 +28,9 @@ import com.mxgraph.util.mxEventSource.mxIEventListener;
 import com.mxgraph.view.mxGraph;
 import com.mxgraph.view.mxGraphView;
 
+
+import cn.edu.ustc.biofilm.BioPano.editor.SearchToolBar;
+
 public class EditorToolBar extends JToolBar
 {
 
@@ -50,7 +49,8 @@ public class EditorToolBar extends JToolBar
 	/**
 	 * 
 	 */
-	public EditorToolBar(final BasicGraphEditor editor, int orientation)
+	//public EditorToolBar(final BasicGraphEditor editor, int orientation)
+	public EditorToolBar(final BasicGraphEditor editor, final JPanel panel, int orientation)
 	{
 		super(orientation);
 		setBorder(BorderFactory.createCompoundBorder(BorderFactory
@@ -274,5 +274,6 @@ public class EditorToolBar extends JToolBar
 				}
 			}
 		});
+
 	}
 }

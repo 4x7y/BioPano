@@ -41,8 +41,8 @@ public class SearchToolBar extends JPanel {
         setLayout(new BorderLayout(0, 0));
         add(jf, BorderLayout.NORTH);
         jf.setColumns(0);
-        jf.setPreferredSize(new Dimension(250,40));
 
+        /*
         add(panelContactor, BorderLayout.CENTER);
         panelContactor.addContact("Operon");
         panelContactor.addContact("Gene");
@@ -67,7 +67,7 @@ public class SearchToolBar extends JPanel {
         panelContactor.addContact("Operon");
         panelContactor.addContact("Gene");
 
-
+        */
 
     }
 
@@ -147,7 +147,7 @@ class JIconTextField extends JTextField{
         */
         JTextField dummy = new JTextField();
         Border line = BorderFactory.createLineBorder(Color.lightGray);
-        Border empty = new EmptyBorder(5,28,5, 5);
+        Border empty = new EmptyBorder(6,26,5,5);
         CompoundBorder border = new CompoundBorder(line, empty);
         this.dummyInsets = border.getBorderInsets(dummy);
         this.setBorder(border);
@@ -173,11 +173,11 @@ class JIconTextField extends JTextField{
             int x = dummyInsets.left-20;//this is our icon's x
             textX = x+iconWidth+2; //this is the x where text should start
             int y = (this.getHeight() - iconHeight)/2;
-            icon.paintIcon(this, g, 3, y);
+            icon.paintIcon(this, g, 2, 3);
         }
 
 
-        this.setMargin(new Insets(0, 0, 0, 0));
+        //this.setMargin(new Insets(0, 0, 0, 0));
 
 
     }
