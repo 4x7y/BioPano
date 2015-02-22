@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c6f34057-a3e9-4eef-a1fe-26f897eea8d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorMenuBar.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorMenuBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorToolBar.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorToolBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BioPano.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,43 +47,19 @@
       <file leaf-file-name="GraphEditor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/GraphEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9402" max-vertical-offset="10035">
-              <caret line="670" column="57" selection-start-line="670" selection-start-column="57" selection-end-line="670" selection-end-column="57" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="9420" max-vertical-offset="9615">
+              <caret line="670" column="52" selection-start-line="670" selection-start-column="52" selection-end-line="670" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditorMenuBar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorMenuBar.java">
+      <file leaf-file-name="JTableRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6153846" vertical-offset="1377" max-vertical-offset="18120">
-              <caret line="105" column="94" selection-start-line="105" selection-start-column="94" selection-end-line="105" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6659#7000#0" expanded="true" />
-                <element signature="e#6999#7000#0" expanded="true" />
-                <element signature="e#15950#15951#0" expanded="true" />
-                <element signature="e#15991#15992#0" expanded="true" />
-                <element signature="e#20355#20577#0" expanded="true" />
-                <element signature="e#20576#20577#0" expanded="true" />
-                <element signature="method#AnalyzeGraph#0;class#AnalyzeGraph#0;class#EditorMenuBar#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditorToolBar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorToolBar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="3855">
-              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="3510" max-vertical-offset="7005">
+              <caret line="292" column="57" selection-start-line="292" selection-start-column="57" selection-end-line="292" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,88 +67,8 @@
       <file leaf-file-name="EditorAboutFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorAboutFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1319" max-vertical-offset="2160">
-              <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditorActions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorActions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="16454" max-vertical-offset="31230">
-              <caret line="1595" column="46" selection-start-line="1595" selection-start-column="46" selection-end-line="1595" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SchemaGraphComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaGraphComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
-              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicGraphEditor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1350906" vertical-offset="3608" max-vertical-offset="14055">
-              <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3413#3690#0" expanded="true" />
-                <element signature="e#3689#3690#0" expanded="true" />
-                <element signature="e#10156#10157#0" expanded="true" />
-                <element signature="e#10197#10198#0" expanded="true" />
-                <element signature="e#10715#10964#0" expanded="true" />
-                <element signature="e#10963#10964#0" expanded="true" />
-                <element signature="e#12355#12356#0" expanded="true" />
-                <element signature="e#12393#12394#0" expanded="true" />
-                <element signature="e#12568#12569#0" expanded="true" />
-                <element signature="e#12598#12599#0" expanded="true" />
-                <element signature="e#12878#12879#0" expanded="true" />
-                <element signature="e#12903#12904#0" expanded="true" />
-                <element signature="e#13273#13274#0" expanded="true" />
-                <element signature="e#13295#13296#0" expanded="true" />
-                <element signature="e#13359#13360#0" expanded="true" />
-                <element signature="e#13387#13388#0" expanded="true" />
-                <element signature="e#13447#13448#0" expanded="true" />
-                <element signature="e#13473#13474#0" expanded="true" />
-                <element signature="e#13530#13531#0" expanded="true" />
-                <element signature="e#13555#13556#0" expanded="true" />
-                <element signature="e#13613#13614#0" expanded="true" />
-                <element signature="e#13638#13639#0" expanded="true" />
-                <element signature="e#13805#13806#0" expanded="true" />
-                <element signature="e#13843#13844#0" expanded="true" />
-                <element signature="e#13965#13992#0" expanded="true" />
-                <element signature="e#14567#14568#0" expanded="true" />
-                <element signature="e#14596#14597#0" expanded="true" />
-                <element signature="e#16623#16650#0" expanded="true" />
-                <element signature="e#17471#17627#0" expanded="true" />
-                <element signature="e#17626#17627#0" expanded="true" />
-                <element signature="e#19108#19109#0" expanded="true" />
-                <element signature="e#19164#19165#0" expanded="true" />
-                <element signature="e#19444#19445#0" expanded="true" />
-                <element signature="e#19500#19501#0" expanded="true" />
-                <element signature="e#19771#19772#0" expanded="true" />
-                <element signature="e#19827#19828#0" expanded="true" />
-                <element signature="e#20099#20100#0" expanded="true" />
-                <element signature="e#20155#20156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mxGraphOutline.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/jgraphx.jar!/com/mxgraph/swing/mxGraphOutline.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4" vertical-offset="30" max-vertical-offset="7170">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2220">
+              <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -182,27 +77,60 @@
       <file leaf-file-name="SearchToolBar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.769231" vertical-offset="2018" max-vertical-offset="5145">
-              <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="4575">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicGraphEditor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="13500">
+              <caret line="258" column="64" selection-start-line="258" selection-start-column="64" selection-end-line="258" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphConfigDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/GraphConfigDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2640" max-vertical-offset="21255">
+              <caret line="237" column="113" selection-start-line="237" selection-start-column="113" selection-end-line="237" selection-end-column="113" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditorPalette.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorPalette.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="5040">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchemaEditorToolBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorToolBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2280">
+              <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchemaEditorMenuBar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorMenuBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.59407216" vertical-offset="4849" max-vertical-offset="5625">
+              <caret line="384" column="56" selection-start-line="384" selection-start-column="56" selection-end-line="384" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2625#2626#0" expanded="true" />
-                <element signature="e#2671#2672#0" expanded="true" />
-                <element signature="e#2728#2729#0" expanded="true" />
-                <element signature="e#2777#2778#0" expanded="true" />
-                <element signature="e#3885#3886#0" expanded="true" />
-                <element signature="e#3915#3916#0" expanded="true" />
-                <element signature="e#3958#3959#0" expanded="true" />
-                <element signature="e#3988#3989#0" expanded="true" />
-                <element signature="e#4671#4672#0" expanded="true" />
-                <element signature="e#4703#4704#0" expanded="true" />
-                <element signature="e#4731#4732#0" expanded="true" />
-                <element signature="e#4763#4764#0" expanded="true" />
-                <element signature="e#5632#5652#0" expanded="true" />
-                <element signature="e#8877#8878#0" expanded="true" />
-                <element signature="e#8909#8910#0" expanded="true" />
-                <element signature="e#9173#9174#0" expanded="true" />
-                <element signature="e#9237#9238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,14 +138,14 @@
       </file>
       <file leaf-file-name="hs_err_pid6774.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hs_err_pid6774.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5333333" vertical-offset="1364" max-vertical-offset="8310">
-              <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2145" max-vertical-offset="8310">
+              <caret line="143" column="81" selection-start-line="143" selection-start-column="81" selection-end-line="143" selection-end-column="81" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -226,11 +154,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorMenuBar.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/GraphEditor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorMenuBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorPopupMenu.java" />
@@ -242,6 +172,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorToolBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/GraphEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java" />
       </list>
     </option>
   </component>
@@ -326,6 +258,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -410,108 +344,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="editor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BioPano" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchToolBar.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -838,22 +676,45 @@
       <workItem from="1423758822193" duration="8284000" />
       <workItem from="1423829604305" duration="3124000" />
       <workItem from="1423838921918" duration="1067000" />
-      <workItem from="1423847819424" duration="11231000" />
+      <workItem from="1423847819424" duration="11457000" />
+      <workItem from="1424165765905" duration="3369000" />
+      <workItem from="1424247943142" duration="274000" />
+      <workItem from="1424576345675" duration="365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28366000" />
+    <option name="totallyTimeSpent" value="32600000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20072551" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20024876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -863,13 +724,13 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18168813" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25416666" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20072551" sideWeight="0.5222222" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18884121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20024876" sideWeight="0.5222222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -939,21 +800,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/jgraphx.jar!/com/mxgraph/view/mxGraph.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="39420" max-vertical-offset="50385">
-          <caret line="2910" column="16" selection-start-line="2910" selection-start-column="16" selection-end-line="2910" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="453" max-vertical-offset="1095">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/ShadowBorder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1095">
@@ -965,10 +811,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10005" max-vertical-offset="10155">
           <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -999,47 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13380">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3413#3690#0" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#10156#10157#0" expanded="true" />
-            <element signature="e#10197#10198#0" expanded="true" />
-            <element signature="e#10715#10964#0" expanded="true" />
-            <element signature="e#10963#10964#0" expanded="true" />
-            <element signature="e#12355#12356#0" expanded="true" />
-            <element signature="e#12393#12394#0" expanded="true" />
-            <element signature="e#12568#12569#0" expanded="true" />
-            <element signature="e#12598#12599#0" expanded="true" />
-            <element signature="e#12878#12879#0" expanded="true" />
-            <element signature="e#12903#12904#0" expanded="true" />
-            <element signature="e#13273#13274#0" expanded="true" />
-            <element signature="e#13295#13296#0" expanded="true" />
-            <element signature="e#13359#13360#0" expanded="true" />
-            <element signature="e#13387#13388#0" expanded="true" />
-            <element signature="e#13447#13448#0" expanded="true" />
-            <element signature="e#13473#13474#0" expanded="true" />
-            <element signature="e#13530#13531#0" expanded="true" />
-            <element signature="e#13555#13556#0" expanded="true" />
-            <element signature="e#13613#13614#0" expanded="true" />
-            <element signature="e#13638#13639#0" expanded="true" />
-            <element signature="e#13805#13806#0" expanded="true" />
-            <element signature="e#13843#13844#0" expanded="true" />
-            <element signature="e#13965#13992#0" expanded="true" />
-            <element signature="e#14567#14568#0" expanded="true" />
-            <element signature="e#14596#14597#0" expanded="true" />
-            <element signature="e#16623#16650#0" expanded="true" />
-            <element signature="e#17471#17627#0" expanded="true" />
-            <element signature="e#17626#17627#0" expanded="true" />
-            <element signature="e#19108#19109#0" expanded="true" />
-            <element signature="e#19164#19165#0" expanded="true" />
-            <element signature="e#19444#19445#0" expanded="true" />
-            <element signature="e#19500#19501#0" expanded="true" />
-            <element signature="e#19771#19772#0" expanded="true" />
-            <element signature="e#19827#19828#0" expanded="true" />
-            <element signature="e#20099#20100#0" expanded="true" />
-            <element signature="e#20155#20156#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="3810">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,10 +857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10245">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,47 +888,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7395" max-vertical-offset="13890">
           <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3413#3690#0" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#10156#10157#0" expanded="true" />
-            <element signature="e#10197#10198#0" expanded="true" />
-            <element signature="e#10715#10964#0" expanded="true" />
-            <element signature="e#10963#10964#0" expanded="true" />
-            <element signature="e#12355#12356#0" expanded="true" />
-            <element signature="e#12393#12394#0" expanded="true" />
-            <element signature="e#12568#12569#0" expanded="true" />
-            <element signature="e#12598#12599#0" expanded="true" />
-            <element signature="e#12878#12879#0" expanded="true" />
-            <element signature="e#12903#12904#0" expanded="true" />
-            <element signature="e#13273#13274#0" expanded="true" />
-            <element signature="e#13295#13296#0" expanded="true" />
-            <element signature="e#13359#13360#0" expanded="true" />
-            <element signature="e#13387#13388#0" expanded="true" />
-            <element signature="e#13447#13448#0" expanded="true" />
-            <element signature="e#13473#13474#0" expanded="true" />
-            <element signature="e#13530#13531#0" expanded="true" />
-            <element signature="e#13555#13556#0" expanded="true" />
-            <element signature="e#13613#13614#0" expanded="true" />
-            <element signature="e#13638#13639#0" expanded="true" />
-            <element signature="e#13805#13806#0" expanded="true" />
-            <element signature="e#13843#13844#0" expanded="true" />
-            <element signature="e#13965#13992#0" expanded="true" />
-            <element signature="e#14567#14568#0" expanded="true" />
-            <element signature="e#14596#14597#0" expanded="true" />
-            <element signature="e#16623#16650#0" expanded="true" />
-            <element signature="e#17471#17627#0" expanded="true" />
-            <element signature="e#17626#17627#0" expanded="true" />
-            <element signature="e#19108#19109#0" expanded="true" />
-            <element signature="e#19164#19165#0" expanded="true" />
-            <element signature="e#19444#19445#0" expanded="true" />
-            <element signature="e#19500#19501#0" expanded="true" />
-            <element signature="e#19771#19772#0" expanded="true" />
-            <element signature="e#19827#19828#0" expanded="true" />
-            <element signature="e#20099#20100#0" expanded="true" />
-            <element signature="e#20155#20156#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,10 +896,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10305">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,47 +927,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7395" max-vertical-offset="13890">
           <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3413#3690#0" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#10156#10157#0" expanded="true" />
-            <element signature="e#10197#10198#0" expanded="true" />
-            <element signature="e#10715#10964#0" expanded="true" />
-            <element signature="e#10963#10964#0" expanded="true" />
-            <element signature="e#12355#12356#0" expanded="true" />
-            <element signature="e#12393#12394#0" expanded="true" />
-            <element signature="e#12568#12569#0" expanded="true" />
-            <element signature="e#12598#12599#0" expanded="true" />
-            <element signature="e#12878#12879#0" expanded="true" />
-            <element signature="e#12903#12904#0" expanded="true" />
-            <element signature="e#13273#13274#0" expanded="true" />
-            <element signature="e#13295#13296#0" expanded="true" />
-            <element signature="e#13359#13360#0" expanded="true" />
-            <element signature="e#13387#13388#0" expanded="true" />
-            <element signature="e#13447#13448#0" expanded="true" />
-            <element signature="e#13473#13474#0" expanded="true" />
-            <element signature="e#13530#13531#0" expanded="true" />
-            <element signature="e#13555#13556#0" expanded="true" />
-            <element signature="e#13613#13614#0" expanded="true" />
-            <element signature="e#13638#13639#0" expanded="true" />
-            <element signature="e#13805#13806#0" expanded="true" />
-            <element signature="e#13843#13844#0" expanded="true" />
-            <element signature="e#13965#13992#0" expanded="true" />
-            <element signature="e#14567#14568#0" expanded="true" />
-            <element signature="e#14596#14597#0" expanded="true" />
-            <element signature="e#16623#16650#0" expanded="true" />
-            <element signature="e#17471#17627#0" expanded="true" />
-            <element signature="e#17626#17627#0" expanded="true" />
-            <element signature="e#19108#19109#0" expanded="true" />
-            <element signature="e#19164#19165#0" expanded="true" />
-            <element signature="e#19444#19445#0" expanded="true" />
-            <element signature="e#19500#19501#0" expanded="true" />
-            <element signature="e#19771#19772#0" expanded="true" />
-            <element signature="e#19827#19828#0" expanded="true" />
-            <element signature="e#20099#20100#0" expanded="true" />
-            <element signature="e#20155#20156#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,14 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34602648" vertical-offset="8506" max-vertical-offset="14445">
           <caret line="636" column="0" selection-start-line="636" selection-start-column="0" selection-end-line="636" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/resources/basic-style.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,21 +966,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorPopupMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
           <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,29 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1035">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorRuler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7098" max-vertical-offset="7740">
-          <caret line="91" column="49" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="49" />
-          <caret line="93" column="49" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/ShadowBorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorMenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5145">
-          <caret line="300" column="57" selection-start-line="300" selection-start-column="57" selection-end-line="300" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,17 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorPalette.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="5580">
-          <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
@@ -1346,170 +1009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/GraphConfigDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15228" max-vertical-offset="21255">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1704#1705#0" expanded="false" />
-            <element signature="e#1737#1738#0" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-            <element signature="e#1855#1856#0" expanded="false" />
-            <element signature="e#1998#1999#0" expanded="false" />
-            <element signature="e#2021#2022#0" expanded="false" />
-            <element signature="e#2066#2067#0" expanded="false" />
-            <element signature="e#2099#2100#0" expanded="false" />
-            <element signature="e#2130#2131#0" expanded="false" />
-            <element signature="e#2153#2154#0" expanded="false" />
-            <element signature="e#2198#2199#0" expanded="false" />
-            <element signature="e#2231#2232#0" expanded="false" />
-            <element signature="e#2774#2775#0" expanded="false" />
-            <element signature="e#2799#2800#0" expanded="false" />
-            <element signature="e#2848#2849#0" expanded="false" />
-            <element signature="e#2885#2886#0" expanded="false" />
-            <element signature="e#5918#7556#0" expanded="false" />
-            <element signature="e#6354#6370#0" expanded="false" />
-            <element signature="e#7005#7021#0" expanded="false" />
-            <element signature="e#7555#7556#0" expanded="false" />
-            <element signature="e#7592#7731#0" expanded="false" />
-            <element signature="e#7730#7731#0" expanded="false" />
-            <element signature="e#8980#10014#0" expanded="false" />
-            <element signature="e#9602#9618#0" expanded="false" />
-            <element signature="e#10013#10014#0" expanded="false" />
-            <element signature="e#10050#10189#0" expanded="false" />
-            <element signature="e#10188#10189#0" expanded="false" />
-            <element signature="e#11595#12905#0" expanded="false" />
-            <element signature="e#12092#12108#0" expanded="false" />
-            <element signature="e#12904#12905#0" expanded="false" />
-            <element signature="e#12941#13080#0" expanded="false" />
-            <element signature="e#13079#13080#0" expanded="false" />
-            <element signature="e#14396#15745#0" expanded="false" />
-            <element signature="e#14747#14763#0" expanded="false" />
-            <element signature="e#15744#15745#0" expanded="false" />
-            <element signature="e#15782#15921#0" expanded="false" />
-            <element signature="e#15920#15921#0" expanded="false" />
-            <element signature="e#17096#18044#0" expanded="false" />
-            <element signature="e#17379#17395#0" expanded="false" />
-            <element signature="e#18043#18044#0" expanded="false" />
-            <element signature="e#18080#18219#0" expanded="false" />
-            <element signature="e#18218#18219#0" expanded="false" />
-            <element signature="e#19614#20728#0" expanded="false" />
-            <element signature="e#20353#20369#0" expanded="false" />
-            <element signature="e#20727#20728#0" expanded="false" />
-            <element signature="e#20765#20904#0" expanded="false" />
-            <element signature="e#20903#20904#0" expanded="false" />
-            <element signature="e#22073#23124#0" expanded="false" />
-            <element signature="e#22496#22512#0" expanded="false" />
-            <element signature="e#23123#23124#0" expanded="false" />
-            <element signature="e#23160#23299#0" expanded="false" />
-            <element signature="e#23298#23299#0" expanded="false" />
-            <element signature="e#24536#25598#0" expanded="false" />
-            <element signature="e#25026#25042#0" expanded="false" />
-            <element signature="e#25597#25598#0" expanded="false" />
-            <element signature="e#25634#25773#0" expanded="false" />
-            <element signature="e#25772#25773#0" expanded="false" />
-            <element signature="e#27266#28678#0" expanded="false" />
-            <element signature="e#27951#27967#0" expanded="false" />
-            <element signature="e#28677#28678#0" expanded="false" />
-            <element signature="e#28715#28854#0" expanded="false" />
-            <element signature="e#28853#28854#0" expanded="false" />
-            <element signature="e#30437#31593#0" expanded="false" />
-            <element signature="e#30848#30864#0" expanded="false" />
-            <element signature="e#31592#31593#0" expanded="false" />
-            <element signature="e#31629#31768#0" expanded="false" />
-            <element signature="e#31767#31768#0" expanded="false" />
-            <element signature="e#32908#33654#0" expanded="false" />
-            <element signature="e#33653#33654#0" expanded="false" />
-            <element signature="e#33690#33829#0" expanded="false" />
-            <element signature="e#33828#33829#0" expanded="false" />
-            <element signature="e#35110#40572#0" expanded="false" />
-            <element signature="e#35786#36280#0" expanded="false" />
-            <element signature="e#36279#36280#0" expanded="false" />
-            <element signature="e#36682#37176#0" expanded="false" />
-            <element signature="e#37175#37176#0" expanded="false" />
-            <element signature="e#37575#38069#0" expanded="false" />
-            <element signature="e#38068#38069#0" expanded="false" />
-            <element signature="e#38474#38968#0" expanded="false" />
-            <element signature="e#38967#38968#0" expanded="false" />
-            <element signature="e#40571#40572#0" expanded="false" />
-            <element signature="e#40608#40747#0" expanded="false" />
-            <element signature="e#40746#40747#0" expanded="false" />
-            <element signature="e#42457#43173#0" expanded="false" />
-            <element signature="e#43172#43173#0" expanded="false" />
-            <element signature="e#45150#45289#0" expanded="false" />
-            <element signature="e#45288#45289#0" expanded="false" />
-            <element signature="e#45855#45871#0" expanded="false" />
-            <element signature="e#48883#48884#0" expanded="false" />
-            <element signature="e#48934#48935#0" expanded="false" />
-            <element signature="e#48993#48994#0" expanded="false" />
-            <element signature="e#49036#49037#0" expanded="false" />
-            <element signature="e#49079#49080#0" expanded="false" />
-            <element signature="e#49106#49107#0" expanded="false" />
-            <element signature="e#49161#49162#0" expanded="false" />
-            <element signature="e#49204#49205#0" expanded="false" />
-            <element signature="e#49263#49264#0" expanded="false" />
-            <element signature="e#49306#49307#0" expanded="false" />
-            <element signature="e#49498#49499#0" expanded="false" />
-            <element signature="e#49537#49538#0" expanded="false" />
-            <element signature="e#49665#49666#0" expanded="false" />
-            <element signature="e#49700#49701#0" expanded="false" />
-            <element signature="e#50235#50236#0" expanded="false" />
-            <element signature="e#50264#50265#0" expanded="false" />
-            <element signature="e#50789#50790#0" expanded="false" />
-            <element signature="e#50836#50837#0" expanded="false" />
-            <element signature="e#51037#51038#0" expanded="false" />
-            <element signature="e#51065#51066#0" expanded="false" />
-            <element signature="e#51100#51101#0" expanded="false" />
-            <element signature="e#51125#51126#0" expanded="false" />
-            <element signature="e#51161#51162#0" expanded="false" />
-            <element signature="e#51187#51188#0" expanded="false" />
-            <element signature="e#51219#51220#0" expanded="false" />
-            <element signature="e#51243#51244#0" expanded="false" />
-            <element signature="e#51273#51274#0" expanded="false" />
-            <element signature="e#51295#51296#0" expanded="false" />
-            <element signature="e#51325#51326#0" expanded="false" />
-            <element signature="e#51347#51348#0" expanded="false" />
-            <element signature="e#51376#51377#0" expanded="false" />
-            <element signature="e#51397#51398#0" expanded="false" />
-            <element signature="e#51434#51435#0" expanded="false" />
-            <element signature="e#51463#51464#0" expanded="false" />
-            <element signature="e#51501#51502#0" expanded="false" />
-            <element signature="e#51531#51532#0" expanded="false" />
-            <element signature="e#51569#51570#0" expanded="false" />
-            <element signature="e#51599#51600#0" expanded="false" />
-            <element signature="e#51628#51629#0" expanded="false" />
-            <element signature="e#51649#51650#0" expanded="false" />
-            <element signature="e#51692#51693#0" expanded="false" />
-            <element signature="e#51724#51725#0" expanded="false" />
-            <element signature="e#51763#51764#0" expanded="false" />
-            <element signature="e#51791#51792#0" expanded="false" />
-            <element signature="e#51822#51823#0" expanded="false" />
-            <element signature="e#51842#51843#0" expanded="false" />
-            <element signature="e#51881#51882#0" expanded="false" />
-            <element signature="e#51909#51910#0" expanded="false" />
-            <element signature="e#51942#51943#0" expanded="false" />
-            <element signature="e#51964#51965#0" expanded="false" />
-            <element signature="e#52011#52012#0" expanded="false" />
-            <element signature="e#52042#52043#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2595">
-          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar!/sun/lwawt/macosx/CDataTransferer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.44" vertical-offset="1199" max-vertical-offset="3420">
           <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1517,61 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.332773" vertical-offset="14262" max-vertical-offset="28455">
           <caret line="1301" column="40" selection-start-line="1301" selection-start-column="40" selection-end-line="1301" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4757" max-vertical-offset="6915">
-          <caret line="396" column="23" selection-start-line="396" selection-start-column="23" selection-end-line="396" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs_err_pid6774.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5333333" vertical-offset="1364" max-vertical-offset="8310">
-          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorMenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6153846" vertical-offset="1377" max-vertical-offset="18120">
-          <caret line="105" column="94" selection-start-line="105" selection-start-column="94" selection-end-line="105" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6659#7000#0" expanded="true" />
-            <element signature="e#6999#7000#0" expanded="true" />
-            <element signature="e#15950#15951#0" expanded="true" />
-            <element signature="e#15991#15992#0" expanded="true" />
-            <element signature="e#20355#20577#0" expanded="true" />
-            <element signature="e#20576#20577#0" expanded="true" />
-            <element signature="method#AnalyzeGraph#0;class#AnalyzeGraph#0;class#EditorMenuBar#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorAboutFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1319" max-vertical-offset="2160">
-          <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21209" max-vertical-offset="31230">
-          <caret line="1595" column="46" selection-start-line="1595" selection-start-column="46" selection-end-line="1595" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1579,17 +1027,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="3855">
           <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jgraphx.jar!/com/mxgraph/swing/mxGraphOutline.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4" vertical-offset="30" max-vertical-offset="7170">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="7170">
           <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1597,6 +1041,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
           <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/src.zip!/javax/swing/JScrollPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="12554" max-vertical-offset="22215">
+          <caret line="937" column="21" selection-start-line="937" selection-start-column="21" selection-end-line="937" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorMenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1246" max-vertical-offset="17820">
+          <caret line="105" column="94" selection-start-line="105" selection-start-column="94" selection-end-line="105" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/images/preferences.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="32235">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorRuler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="659" max-vertical-offset="7740">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/ShadowBorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/resources/basic-style.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/resources/default-style.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="1650">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/JTableRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3854" max-vertical-offset="7560">
+          <caret line="292" column="57" selection-start-line="292" selection-start-column="57" selection-end-line="292" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid6774.log">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2145" max-vertical-offset="8310">
+          <caret line="143" column="81" selection-start-line="143" selection-start-column="81" selection-end-line="143" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -1604,85 +1123,65 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/GraphEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="9402" max-vertical-offset="10035">
-          <caret line="670" column="57" selection-start-line="670" selection-start-column="57" selection-end-line="670" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.769231" vertical-offset="2018" max-vertical-offset="5145">
-          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2625#2626#0" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2777#2778#0" expanded="true" />
-            <element signature="e#3885#3886#0" expanded="true" />
-            <element signature="e#3915#3916#0" expanded="true" />
-            <element signature="e#3958#3959#0" expanded="true" />
-            <element signature="e#3988#3989#0" expanded="true" />
-            <element signature="e#4671#4672#0" expanded="true" />
-            <element signature="e#4703#4704#0" expanded="true" />
-            <element signature="e#4731#4732#0" expanded="true" />
-            <element signature="e#4763#4764#0" expanded="true" />
-            <element signature="e#5632#5652#0" expanded="true" />
-            <element signature="e#8877#8878#0" expanded="true" />
-            <element signature="e#8909#8910#0" expanded="true" />
-            <element signature="e#9173#9174#0" expanded="true" />
-            <element signature="e#9237#9238#0" expanded="true" />
-          </folding>
+          <caret line="670" column="52" selection-start-line="670" selection-start-column="52" selection-end-line="670" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/BasicGraphEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1350906" vertical-offset="3608" max-vertical-offset="14055">
-          <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3404" max-vertical-offset="13095">
+          <caret line="258" column="64" selection-start-line="258" selection-start-column="64" selection-end-line="258" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorAboutFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="839" max-vertical-offset="2505">
+          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SearchToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="4575">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/GraphConfigDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="21255">
+          <caret line="237" column="113" selection-start-line="237" selection-start-column="113" selection-end-line="237" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/EditorPalette.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="5040">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="2280">
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/ustc/biofilm/BioPano/editor/SchemaEditorMenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59407216" vertical-offset="4849" max-vertical-offset="5625">
+          <caret line="384" column="56" selection-start-line="384" selection-start-column="56" selection-end-line="384" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3413#3690#0" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#10156#10157#0" expanded="true" />
-            <element signature="e#10197#10198#0" expanded="true" />
-            <element signature="e#10715#10964#0" expanded="true" />
-            <element signature="e#10963#10964#0" expanded="true" />
-            <element signature="e#12355#12356#0" expanded="true" />
-            <element signature="e#12393#12394#0" expanded="true" />
-            <element signature="e#12568#12569#0" expanded="true" />
-            <element signature="e#12598#12599#0" expanded="true" />
-            <element signature="e#12878#12879#0" expanded="true" />
-            <element signature="e#12903#12904#0" expanded="true" />
-            <element signature="e#13273#13274#0" expanded="true" />
-            <element signature="e#13295#13296#0" expanded="true" />
-            <element signature="e#13359#13360#0" expanded="true" />
-            <element signature="e#13387#13388#0" expanded="true" />
-            <element signature="e#13447#13448#0" expanded="true" />
-            <element signature="e#13473#13474#0" expanded="true" />
-            <element signature="e#13530#13531#0" expanded="true" />
-            <element signature="e#13555#13556#0" expanded="true" />
-            <element signature="e#13613#13614#0" expanded="true" />
-            <element signature="e#13638#13639#0" expanded="true" />
-            <element signature="e#13805#13806#0" expanded="true" />
-            <element signature="e#13843#13844#0" expanded="true" />
-            <element signature="e#13965#13992#0" expanded="true" />
-            <element signature="e#14567#14568#0" expanded="true" />
-            <element signature="e#14596#14597#0" expanded="true" />
-            <element signature="e#16623#16650#0" expanded="true" />
-            <element signature="e#17471#17627#0" expanded="true" />
-            <element signature="e#17626#17627#0" expanded="true" />
-            <element signature="e#19108#19109#0" expanded="true" />
-            <element signature="e#19164#19165#0" expanded="true" />
-            <element signature="e#19444#19445#0" expanded="true" />
-            <element signature="e#19500#19501#0" expanded="true" />
-            <element signature="e#19771#19772#0" expanded="true" />
-            <element signature="e#19827#19828#0" expanded="true" />
-            <element signature="e#20099#20100#0" expanded="true" />
-            <element signature="e#20155#20156#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -116,6 +116,7 @@ public class JTableRenderer extends JComponent
 
 		JPanel title = new JPanel();
 		title.setBackground(new Color(149, 173, 239));
+		//title.setBackground(new Color(10, 10, 20));
 		title.setOpaque(true);
 		title.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 1));
 		title.setLayout(new BorderLayout());

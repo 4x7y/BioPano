@@ -263,7 +263,7 @@ public class BasicGraphEditor extends JPanel
 		toolPanel.add(new EditorToolBar(this, toolPanel, JToolBar.HORIZONTAL), BorderLayout.WEST);
 
 		SearchToolBar searchTool = new SearchToolBar();
-		searchTool.setPreferredSize(new Dimension(250,30));
+		searchTool.setPreferredSize(new Dimension(250,28));
 		toolPanel.add(searchTool, BorderLayout.EAST);
 
 		//JPanel occupyPanel = new JPanel();
@@ -286,6 +286,7 @@ public class BasicGraphEditor extends JPanel
 	/**
 	 * 
 	 */
+
 	protected void installRepaintListener()
 	{
 		graphComponent.getGraph().addListener(mxEvent.REPAINT,
